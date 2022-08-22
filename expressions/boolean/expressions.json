@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleep + keepingUp",
+    "correct": false
+  },
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleep",
+    "correct": false
+  },
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleepandkeepingUp  ",
+    "correct": false
+  },
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleep-and-keepingUp  ",
+    "correct": false
+  },
+  {
+    "name": "Doing well?",
+    "answer": "enoughSleep&&keepingUp",
+    "correct": true
+  },
+  {
+    "name": "Energetic?",
+    "answer": "enoughsleep&&justWorkedOut",
+    "correct": false
+  }
+]
