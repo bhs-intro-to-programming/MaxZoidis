@@ -136,5 +136,11 @@
     "answer": "s.substring(s.length-3)",
     "correct": true,
     "timestamp": 1661379573046
+  },
+  {
+    "name": "Capitalize",
+    "answer": "s.Substring",
+    "correct": false,
+    "timestamp": 1661379605655
   }
 ]
