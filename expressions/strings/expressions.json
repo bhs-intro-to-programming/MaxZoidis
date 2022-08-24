@@ -64,5 +64,11 @@
     "answer": "'oobar'",
     "correct": false,
     "timestamp": 1661378412804
+  },
+  {
+    "name": "Concatenate (smoosh) strings",
+    "answer": "'s1'+'s2'",
+    "correct": false,
+    "timestamp": 1661378474709
   }
 ]
