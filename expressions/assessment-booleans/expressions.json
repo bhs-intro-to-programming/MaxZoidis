@@ -117,5 +117,12 @@
     "answer": "!fun||tired",
     "correct": true,
     "timestamp": 1661897534838
+  },
+  {
+    "name": "Can pay attention?",
+    "canonical": "!hungry && interested",
+    "answer": "!hungry&&interested",
+    "correct": true,
+    "timestamp": 1661897577615
   }
 ]
