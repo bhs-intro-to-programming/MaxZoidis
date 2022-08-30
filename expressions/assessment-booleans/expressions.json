@@ -61,5 +61,12 @@
     "answer": "!afraidOfTheDark&&!afraidOfSpiders",
     "correct": true,
     "timestamp": 1661897263871
+  },
+  {
+    "name": "Super beat?",
+    "canonical": "!enoughSleep && !eatenEnough",
+    "answer": "!enoughSleep&&!eatenEnough",
+    "correct": true,
+    "timestamp": 1661897282224
   }
 ]
