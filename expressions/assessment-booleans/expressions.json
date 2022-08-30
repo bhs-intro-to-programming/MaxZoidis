@@ -5,5 +5,12 @@
     "answer": "!enoughSleep&&lotsOfWork",
     "correct": true,
     "timestamp": 1661896937192
+  },
+  {
+    "name": "Coming to bookclub?",
+    "canonical": "member && !outSick",
+    "answer": "member&&!outSick",
+    "correct": true,
+    "timestamp": 1661896969600
   }
 ]
