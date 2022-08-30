@@ -26,5 +26,12 @@
     "answer": "inTheClass||isProctor",
     "correct": true,
     "timestamp": 1661897096731
+  },
+  {
+    "name": "Ready for some football?",
+    "canonical": "fast && strong",
+    "answer": "fast&&strong",
+    "correct": true,
+    "timestamp": 1661897115955
   }
 ]
