@@ -68,5 +68,12 @@
     "answer": "Math.PI*2*2",
     "correct": true,
     "timestamp": 1661896206990
+  },
+  {
+    "name": "Sally's even more apples",
+    "canonical": "6432 - 4000",
+    "answer": "2430+2",
+    "correct": true,
+    "timestamp": 1661896231118
   }
 ]
