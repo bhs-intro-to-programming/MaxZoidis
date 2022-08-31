@@ -124,5 +124,12 @@
     "answer": "'o'",
     "correct": true,
     "timestamp": 1661984653424
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "'0'",
+    "correct": false,
+    "timestamp": 1661984750161
   }
 ]
