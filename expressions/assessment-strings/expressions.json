@@ -47,5 +47,12 @@
     "answer": "s.substring(0,1)",
     "correct": true,
     "timestamp": 1662070696382
+  },
+  {
+    "name": "lower case",
+    "canonical": "s.toLowerCase()",
+    "answer": "s.substring",
+    "correct": false,
+    "timestamp": 1662070742345
   }
 ]
