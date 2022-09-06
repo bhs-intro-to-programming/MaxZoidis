@@ -1,1 +1,1 @@
-2+2
+const add=(a,b) => a+b
