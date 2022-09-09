@@ -34,5 +34,5 @@
 
 const pigLatin= (max)=>{
 var ion= (/[aeiou]/) 
-return max.substring(ion+1, max.length)+ max.substring(0,ion)+ 'ay'
+return max.substring(ion, max.length)+ max.substring(0,ion)+ 'ay'
 }
