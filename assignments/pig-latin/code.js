@@ -32,7 +32,4 @@
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
 
-const pigLatin= (max)=>{
-var ion= (/[aeiou]/) 
-return max.substring(ion+1, max.length)+ max.substring(0,ion-1)+ 'ay'
-}
+const pigLatin= (s)=>{ s.substring(s.search(/[aeiou]/)) + s.substring(0, s.search((/[aeiou]/))) + 'ay';
