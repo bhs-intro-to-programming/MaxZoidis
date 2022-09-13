@@ -24,16 +24,16 @@ const eatsWorms=(red, spotted)=> red || spotted
 const eatsNuts=(red, spotted)=> red||!spotted
 const eatsFish=(red, spotted)=> !red||spotted
 const eatsMice=(red, spotted)=> !red||!spotted
-function isRed (s1){
+const isRed = (s1) => {
 return s1 === 'Flobby' || s1 === 'Bloggy'
 }
 
-function isSpotted (s1){
-  return s1 === 'Flobby' || s1 === 'Flibble'
+const isSpotted = (s1) => {
+return s1 === 'Flobby' || s1 === 'Flibble'
 }
-function isNotRed (s1){
+const isNotRed = (s1) => {
   return s1 === 'Flibble' || s1 === 'Globby'
 }
-function isNotSpotted (s1){
+const isNotSpotted = (s1) => {
   return s1 === 'Bloggy' || s1 === 'Globby'
 }
