@@ -31,5 +31,5 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
-
+[aeiou]/)
 const pigLatin= (s) => (s.substring(s.search(/[aeiou]/))) +(0,s.search(/[aeiou]/))+'ay';
