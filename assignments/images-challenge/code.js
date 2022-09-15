@@ -40,6 +40,9 @@ drawFilledCircle(285,275,15, 'red')
 drawFilledCircle(315,275,15, 'red')
 drawFilledCircle(345,275,15, 'red')
 drawFilledCircle(375,275,15, 'red')
+drawFilledCircle(405,275,15, 'red')
+drawFilledCircle(435,275,15, 'red')
+drawFilledCircle(465,275,15, 'red')
 
 
 
