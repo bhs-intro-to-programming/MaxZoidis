@@ -24,4 +24,4 @@
  *  clear()
  */
 
-drawFilledCircle(30,275,30, 'red')
+drawFilledCircle(30,275,10, 'red')
