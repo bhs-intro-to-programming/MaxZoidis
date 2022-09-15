@@ -24,7 +24,12 @@
  *  clear()
  */
 
-let radius=5
-let diameter=radius*2
+let radius = 5
+let diameter = radius * 2
+while (width < width + radius) {
+  drawFilledCircle(diameter + x, height / 2, radius, 'red')
+  
+}
+
 
 
