@@ -25,4 +25,4 @@
  */
 
 drawFilledCircle(15,275,15, 'red')
-drawFilledCircle(40,275,15, 'red')
+drawFilledCircle(50,275,15, 'red')
