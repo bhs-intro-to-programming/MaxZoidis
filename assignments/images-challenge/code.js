@@ -23,3 +23,5 @@
  *
  *  clear()
  */
+
+drawFilledCircle(150,100,30, 'red')
