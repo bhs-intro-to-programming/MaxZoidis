@@ -26,9 +26,10 @@
 
 let radius = 5
 let diameter = radius * 2
-while (width < width + radius) {
+let x = 0
+while (x < width - radius) {
   drawFilledCircle(diameter + x, height / 2, radius, 'red')
-x += radius
+  x += radius
 }
 
 
