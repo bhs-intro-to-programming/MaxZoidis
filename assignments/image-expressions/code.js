@@ -58,4 +58,4 @@
 
 drawFilledCircle (width/2, height/2, 50, 'blue')
 
-drawRectangle (width/2, 100 'red'
+drawRectangle (width/2, 100 'red')
