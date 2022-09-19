@@ -76,4 +76,4 @@ drawFilledTriangle(
   height - 80,
   'blue');
 
-drawFilledCircle (width/2, height/2, radius/50)
+drawFilledCircle (width/2, height/2, radius/50, 'blue')
