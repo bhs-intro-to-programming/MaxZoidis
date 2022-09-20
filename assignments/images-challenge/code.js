@@ -24,13 +24,13 @@
  *  clear()
  */
 
-let radius = 12
+/*let radius = 12
 let diameter = radius * 2
 let x = 0
 while (x < width - diameter) {
   drawFilledCircle(diameter + x, height / 2, radius, 'red')
   x += diameter
-}
+}*/
 
 let radius = 12
 let diameter = radius * 2
@@ -41,5 +41,5 @@ while (x < width - diameter) {
   x += diameter
   if (c == 'red') {
     c = 'blue'
-  } else { c == red }
+  } else { c = red }
 }
