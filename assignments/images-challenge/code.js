@@ -35,7 +35,11 @@ while (x < width - diameter) {
 let radius = 12
 let diameter = radius * 2
 let x = 0
+let c = 'red'
 while (x < width - diameter) {
-  drawFilledCircle(diameter + x, height / 2, radius, 'red',)
+  drawFilledCircle(diameter + x, height / 2, radius, c)
   x += diameter
+  if (c == 'red') {
+    c = 'blue'
+  } else { c == red }
 }
