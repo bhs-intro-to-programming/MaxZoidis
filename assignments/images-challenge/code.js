@@ -32,7 +32,7 @@ while (x < width - diameter) {
   x += diameter
 }*/
 
-let radius = 12
+/*let radius = 12
 let diameter = radius * 2
 let x = 0
 let c = 'red'
@@ -42,4 +42,6 @@ while (x < width - diameter) {
   if (c == 'red') {
     c = 'blue'
   } else { c = 'red' }
-}
+}*/
+
+let radius = 100
