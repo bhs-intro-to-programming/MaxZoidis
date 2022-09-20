@@ -41,5 +41,5 @@ while (x < width - diameter) {
   x += diameter
   if (c == 'red') {
     c = 'blue'
-  } else { c = red }
+  } else { c = 'red' }
 }
