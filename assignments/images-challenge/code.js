@@ -46,4 +46,4 @@ while (x < width - diameter) {
 
 
 
-drawFilledCircle (0, 50, 100)
+drawFilledCircle (400, 50, 100)
