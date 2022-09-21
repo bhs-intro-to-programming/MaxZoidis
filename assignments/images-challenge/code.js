@@ -24,7 +24,7 @@
  *  clear()
  */
 
-*/let radius = 12
+/*let radius = 12
 let diameter = radius * 2
 let x = 0
 while (x < width - diameter) {
@@ -44,5 +44,11 @@ while (x < width - diameter) {
   } else { c = 'red' }
 }*/
 
-
+const howManyCircles=25
+let radius = width/2
+let color = 'red'
+while (radius < width/2) {
+drawFilledCircle(width/2, height/2, radius, color)
+radius = radius - width/4/howManyCircles 
+}
 
