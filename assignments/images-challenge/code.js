@@ -24,7 +24,7 @@
  *  clear()
  */
 
-let radius = 12
+let radius = 43
 let diameter = radius * 2
 let x = 0
 while (x < width - diameter) {
