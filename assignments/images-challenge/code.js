@@ -44,7 +44,7 @@ while (x < width - diameter) {
   } else { c = 'red' }
 }*/
 
-const howManyCircles=10
+const howManyCircles=8
 let radius = width/2
 let c = 'red'
 while (radius > width/4/howManyCircles) {
