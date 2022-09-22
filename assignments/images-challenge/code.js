@@ -25,40 +25,40 @@
  */
 
 const circleLineRed = (radius) => {
-let radius = 12
-let diameter = radius * 2
-let x = 0
-while (x < width - diameter) {
-  drawFilledCircle(diameter + x, height / 2, radius, 'red')
-  x += diameter
-}
+  let radius = 12
+  let diameter = radius * 2
+  let x = 0
+  while (x < width - diameter) {
+    drawFilledCircle(diameter + x, height / 2, radius, 'red')
+    x += diameter
+  }
 }
 circleLineRed(12)
 
 
 const circleLine = (radius) => {
-let diameter = radius * 2
-let x = 0
-let c = 'red'
-while (x < width - diameter) {
-  drawFilledCircle(diameter + x, height / 2, radius, c)
-  x += diameter
-  if (c == 'red') {
-    c = 'blue'
-  } else { c = 'red' }
-}
+  let diameter = radius * 2
+  let x = 0
+  let c = 'red'
+  while (x < width - diameter) {
+    drawFilledCircle(diameter + x, height / 2, radius, c)
+    x += diameter
+    if (c == 'red') {
+      c = 'blue'
+    } else { c = 'red' }
+  }
 }
 //circleLine(12)
 
-const dartboard =(howManyCircles) => {
-let radius = width / 2
-let c = 'red'
-while (radius > width / 6 / howManyCircles) {
-  drawFilledCircle(width / 2, height / 2, radius, c)
-  radius = radius - width / 2 / howManyCircles
-  if (c == 'red') {
-    c = 'blue'
-  } else { c = 'red' }
+const dartboard = (howManyCircles) => {
+  let radius = width / 2
+  let c = 'red'
+  while (radius > width / 6 / howManyCircles) {
+    drawFilledCircle(width / 2, height / 2, radius, c)
+    radius = radius - width / 2 / howManyCircles
+    if (c == 'red') {
+      c = 'blue'
+    } else { c = 'red' }
+  }
 }
-} 
-dartboard(12);
+//dartboard(12);
