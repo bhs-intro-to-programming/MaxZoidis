@@ -44,7 +44,7 @@ while (x < width - diameter) {
   } else { c = 'red' }
 }
 }
-circleLine(5)
+circleLine(12)
 
 const dartboard =(howManyCircles) => {
 let radius = width / 2
