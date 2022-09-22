@@ -56,4 +56,4 @@ while (radius > width / 6 / howManyCircles) {
   } else { c = 'red' }
 }
 } 
-dartboard(8)
+dartboard(6)
