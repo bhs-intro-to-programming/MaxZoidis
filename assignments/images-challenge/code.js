@@ -24,13 +24,17 @@
  *  clear()
  */
 
-/*let radius = 12
+const circleLineRed = (radius) => {
+let radius = 12
 let diameter = radius * 2
 let x = 0
 while (x < width - diameter) {
   drawFilledCircle(diameter + x, height / 2, radius, 'red')
   x += diameter
-}*/
+}
+}
+circleLineRed(12)
+
 
 const circleLine = (radius) => {
 let diameter = radius * 2
