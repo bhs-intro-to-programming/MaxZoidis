@@ -47,7 +47,7 @@ while (x < width - diameter) {
 const howManyCircles=25
 let radius = width/2
 let c = 'red'
-while (radius > width/4) {
+while (radius > width/4/howManyCircles) {
 drawFilledCircle(width/2, height/2, radius, c)
 radius = radius - width/4/howManyCircles 
  if (c == 'red') {
