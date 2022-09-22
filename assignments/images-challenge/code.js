@@ -25,7 +25,6 @@
  */
 
 const circleLineRed = (radius) => {
-  
   let diameter = radius * 2
   let x = 0
   while (x < width - diameter) {
@@ -33,7 +32,7 @@ const circleLineRed = (radius) => {
     x += diameter
   }
 }
-circleLineRed(12)
+//circleLineRed(12)
 
 
 const circleLine = (radius) => {
@@ -62,3 +61,5 @@ const dartboard = (howManyCircles) => {
   }
 }
 //dartboard(12);
+
+const checkerboard = (how)
