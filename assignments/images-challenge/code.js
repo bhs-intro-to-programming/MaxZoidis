@@ -44,14 +44,16 @@ while (x < width - diameter) {
   } else { c = 'red' }
 }*/
 
-const howManyCircles=6
-let radius = width/2
+
+const dartboard =(howManyCircles) => {
+let radius = width / 2
 let c = 'red'
-while (radius > width/6/howManyCircles) {
-drawFilledCircle(width/2, height/2, radius, c)
-radius = radius - width/4/howManyCircles 
- if (c == 'red') {
+while (radius > width / 6 / howManyCircles) {
+  drawFilledCircle(width / 2, height / 2, radius, c)
+  radius = radius - width / 4 / howManyCircles
+  if (c == 'red') {
     c = 'blue'
   } else { c = 'red' }
 }
-
+} 
+dartboard(6)
