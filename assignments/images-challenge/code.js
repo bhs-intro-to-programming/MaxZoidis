@@ -32,7 +32,7 @@ const circleLineRed = (radius) => {
     x += diameter
   }
 }
-//circleLineRed(12)
+circleLineRed(12)
 
 
 const circleLine = (radius) => {
@@ -47,7 +47,7 @@ const circleLine = (radius) => {
     } else { c = 'red' }
   }
 }
-circleLine(12)
+//circleLine(12)
 
 const dartboard = (howManyCircles) => {
   let radius = width / 2
