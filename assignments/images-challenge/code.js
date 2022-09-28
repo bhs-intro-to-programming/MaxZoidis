@@ -60,6 +60,6 @@ const dartboard = (howManyCircles) => {
     } else { c = 'red' }
   }
 }
-//dartboard(12);
+dartboard(12);
 
 
