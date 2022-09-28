@@ -50,7 +50,7 @@ const circleLine = (radius) => {
 //circleLine(12)
 
 const dartboard = (howManyCircles) => {
-  let radius = width / 2
+  let radius = height / 2
   let c = 'red'
   while (radius > width / 6 / howManyCircles) {
     drawFilledCircle(width / 2, height / 2, radius, c)
