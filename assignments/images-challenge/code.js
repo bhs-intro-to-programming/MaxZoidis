@@ -32,7 +32,7 @@ const circleLineRed = (radius) => {
     x += diameter
   }
 }
-circleLineRed(12)
+//circleLineRed(12)
 
 
 const circleLine = (radius) => {
