@@ -60,7 +60,11 @@ const dartboard = (howManyCircles) => {
     } else { c = 'red' }
   }
 }
-dartboard(12);
+//dartboard(12);
 
 const checkerBoard = (NumSq) => 
-let width = height / 10
+let width = height / 5
+let c = 'red'
+while (width > height/10/ NumSq) { 
+drawFilledSquare (width / 10, height / 5)
+}
