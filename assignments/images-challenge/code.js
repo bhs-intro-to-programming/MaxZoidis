@@ -62,4 +62,5 @@ const dartboard = (howManyCircles) => {
 }
 dartboard(12);
 
-
+const checkerBoard = (NumSq) => 
+let width = height / 10
