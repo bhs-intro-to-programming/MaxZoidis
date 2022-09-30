@@ -28,9 +28,5 @@ const canSleepIn = (weekday, vacation) => {
 }
 
 const canGoToProm = (senior, invitedBySenior, promExclusionList) => {
-  return senior || invitedBySenior || promExclusionList
-}
-
-const getsSpeedingTicket = (mph, copGrouchy) => {
-  return 65 > mph && copGrouchy || 70 > mph
+  return senior || invitedBySenior || !promExclusionList
 }
