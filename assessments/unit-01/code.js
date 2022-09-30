@@ -22,3 +22,7 @@ const numCircles = (radius, width) => {
 const offset = (width, figureWidth) => {
   return (width - figureWidth) / 2
 }
+
+const canSleepIn = (weekday, vacation) => {
+  return !weekday || vacation
+}
