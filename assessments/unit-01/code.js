@@ -26,3 +26,7 @@ const offset = (width, figureWidth) => {
 const canSleepIn = (weekday, vacation) => {
   return !weekday || vacation
 }
+
+const canGoToProm = (senior, invitedBySenior, promExclusionList) => {
+  return senior || invitedBySenior || promExclusionList
+}
