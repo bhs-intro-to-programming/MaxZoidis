@@ -10,3 +10,7 @@ const averageWeight = (a, b) => (a + b) / 2
 const hypotenuse = (a, b,) => {
   return (a * a) + (b * b)
 }
+
+const maxRadius = (width, height) => {
+  return width/2
+}
