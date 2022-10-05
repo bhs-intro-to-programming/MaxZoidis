@@ -31,6 +31,10 @@ const canGoToProm = (senior, invitedBySenior, promExclusionList) => {
   return senior || invitedBySenior || !promExclusionList
 }
 
-const getsSpeedingTicket = (mph,copGrouchy) => {
-  return 65> mph && copGrouchy || 70 > mph
+const getsSpeedingTicket = (mph, copGrouchy) => {
+  return 65 > mph && copGrouchy || 70 > mph
+}
+
+const moreThanTwiceAsLong = (s1, s2) => {
+  return s1 > s2 * 2
 }
