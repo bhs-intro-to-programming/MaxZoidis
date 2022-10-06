@@ -38,3 +38,7 @@ const getsSpeedingTicket = (mph, copGrouchy) => {
 const moreThanTwiceAsLong = (s1, s2) => {
   return s1 > s2 * 2
 }
+
+const aFartherThanB = (a, b, c) => {
+  return (a - c) > (a - b)
+}
