@@ -20,8 +20,8 @@ const canBePresident = (thirtyFive, bornCitizen, livedFourteen) => {
 }
 
 
-const = () => {
-  return
+const willSeeTweet = (follows, followsRetweet, blocked) => {
+  return follows || followsRetweet && !blocked
 }
 
 
