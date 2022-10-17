@@ -25,37 +25,47 @@ const willSeeTweet = (follows, followsRetweet, blocked) => {
 }
 
 
-const evenGreaterThanZero= (number) => {
-return 
+const evenGreaterThanZero = (number) => {
+  return even && number > 0
 }
 
 
-const isLeapYear= (year) => {
+const isLeapYear = (year) => {
   return
 }
 
 
-const firstAndLast = (s1) => {
+const firstAndLast = (string) => {
   return
 }
 
 
-const swapFrontAndBack= (s1) => {
+const swapFrontAndBack = (string) => {
   return
 }
 
 
 
-const = () => {
+const simplePigLatin = (string) => {
   return
 }
 
 
-const = () => {
+const randomCharacter = (string) => {
   return
 }
 
 
-const = () => {
+const randomCharacterUpDown = (string) => {
+  return
+}
+
+
+const isAllUpperCase = (string) => {
+  return
+}
+
+
+const sameIgnoringCase = (s1, s2) => {
   return
 }
