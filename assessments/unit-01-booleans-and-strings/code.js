@@ -26,21 +26,21 @@ const willSeeTweet = (follows, followsRetweet, blocked) => {
 
 
 const evenGreaterThanZero= (number) => {
-return number > 0 && even
+return 
 }
 
 
-const = () => {
+const isLeapYear= (year) => {
   return
 }
 
 
-const = () => {
+const firstAndLast = (s1) => {
   return
 }
 
 
-const = () => {
+const swapFrontAndBack= (s1) => {
   return
 }
 
