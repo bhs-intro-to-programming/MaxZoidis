@@ -15,8 +15,8 @@ const fireAlarm = (alarmPulled, smokeDetected, plannedDrill) => {
 }
 
 
-const = () => {
-  return
+const canBePresident = (thirtyFive, bornCitizen, livedFourteen) => {
+  return thirtyFive && bornCitizen && livedFourteen
 }
 
 
