@@ -25,8 +25,8 @@ const willSeeTweet = (follows, followsRetweet, blocked) => {
 }
 
 
-const = () => {
-  return
+const evenGreaterThanZero= (number) => {
+return number > 0 && even
 }
 
 
