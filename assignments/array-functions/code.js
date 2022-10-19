@@ -9,8 +9,8 @@ const countTens = (arrayofnumbers) => {
 }
 
 const sum = arrayofnumbers => {
-  let sum = 0
+  let s = 0
   for (let i = 0; i < arrayofnumbers.length; i++) {
-    sum = sum + arrayofnumbers[i]
+    s = s + arrayofnumbers[i]
   }
 }
