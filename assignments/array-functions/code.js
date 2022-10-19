@@ -23,6 +23,6 @@ const evens = arrayofnumbers => {
       e.push(arrayofnumbers[i])
     }
   }
-  return x
+  return e
 }
 
