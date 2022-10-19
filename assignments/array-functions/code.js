@@ -6,3 +6,4 @@ const countTens = (arrayofnumbers) => {
     }
   }
   return numbertens
+}
