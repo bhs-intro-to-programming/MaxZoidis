@@ -30,8 +30,10 @@ const anyOverOneHundred = (arrayofnumbers) => {
   let x = []
   for (let i = 0; i < arrayofnumbers.length; i++) {
     if (arrayofnumbers[i] >= 100) {
+    }
 else arrayofnumbers = false
-  }
+
+  
 
 }
 return x
