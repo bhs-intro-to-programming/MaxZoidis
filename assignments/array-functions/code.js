@@ -29,6 +29,7 @@ const evens = (arrayofnumbers) => {
 const anyOverOneHundred = (arrayofnumbers) => {
 
   for (let i = 0; i < arrayofnumbers.length; i++) {
-    if (arrayofnumbers[i] === => 100)
+    if (arrayofnumbers[i] >= 100)
+else arrayofnumbers = false
   }
 }
