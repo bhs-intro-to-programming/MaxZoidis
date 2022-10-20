@@ -32,7 +32,7 @@ const anyOverOneHundred = (arrayofnumbers) => {
       return true
     }
   }
+}
   return false
 
 
-}
