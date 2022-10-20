@@ -31,7 +31,8 @@ const anyOverOneHundred = (arrayofnumbers) => {
     if (arrayofnumbers[i] >= 100) {
       return true
     }
-    return false
   }
+  return false
+
 
 }
