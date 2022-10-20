@@ -8,7 +8,7 @@ const countTens = (arrayofnumbers) => {
   return numbertens
 }
 
-const sum = arrayofnumbers => {
+const sum = (arrayofnumbers) => {
   let s = 0
   for (let i = 0; i < arrayofnumbers.length; i++) {
     s = s + arrayofnumbers[i]
@@ -16,7 +16,7 @@ const sum = arrayofnumbers => {
   return s
 }
 
-const evens = arrayofnumbers => {
+const evens = (arrayofnumbers) => {
   let e = []
   for (let i = 0; i < arrayofnumbers.length; i++) {
     if (arrayofnumbers[i] % 2 === 0) {
@@ -26,3 +26,4 @@ const evens = arrayofnumbers => {
   return e
 }
 
+const anyOverOneHundred = arrayofnumbers
