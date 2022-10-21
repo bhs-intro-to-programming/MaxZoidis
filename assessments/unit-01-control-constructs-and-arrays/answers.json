@@ -12,6 +12,6 @@
   "It tests whether there are at most max prime numbers below limit.",
   "10",
   "xs[xs.length]",
-  "3",
+  "2",
   "0"
 ]
