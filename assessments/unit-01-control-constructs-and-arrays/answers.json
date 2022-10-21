@@ -1,5 +1,6 @@
 [
   "Yes",
   "Just bar",
-  "Just foo"
+  "Just foo",
+  "let x = 0"
 ]
