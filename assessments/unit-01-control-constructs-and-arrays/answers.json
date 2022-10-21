@@ -19,5 +19,5 @@
   "false",
   "The sum of the numbers from 0 to numbers.length.",
   "Changes all the words in the words array to uppercase.",
-  "This function takes foo"
+  "This function takes the length of foo minus the index which is less than the length of foo and returns the result."
 ]
