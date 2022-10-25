@@ -9,6 +9,6 @@ registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
 });
 const ticTac = array =>
-[1][1][1]
-[1][1][1]
-[1][1][1]
+[x,o,x]
+[x,x,o]
+[o,x,o]
