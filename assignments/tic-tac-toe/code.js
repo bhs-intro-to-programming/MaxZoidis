@@ -8,7 +8,8 @@
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
 });
-const ticTac = array =>
+const ticTac= array=>{
 [x,o,x]
 [x,x,o]
 [o,x,o]
+}
