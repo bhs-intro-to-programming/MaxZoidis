@@ -1,2 +1,2 @@
 const isAllUpperCase = (s)=>
-s.toUpperCase
+s.toUpperCase()
