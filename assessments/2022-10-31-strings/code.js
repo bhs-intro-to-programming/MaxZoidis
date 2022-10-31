@@ -14,3 +14,4 @@ const rand = (n) => Math.floor(Math.random() * n);
 const firstHalf = (string) => {
   return string.length(0, 2)
 }
+
