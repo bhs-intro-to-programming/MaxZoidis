@@ -15,3 +15,6 @@ const firstHalf = (string) => {
   return string.length(0, 2)
 }
 
+const secondHalf = (string) => {
+  return 2,5
+}
