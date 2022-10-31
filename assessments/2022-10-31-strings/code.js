@@ -12,4 +12,4 @@ const rand = (n) => Math.floor(Math.random() * n);
 // correct even if contains small mistakes.
 
 const firstHalf = (number) =>
-s.length(0,2)
+number.length(0,2)
