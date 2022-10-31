@@ -30,3 +30,7 @@ const firstFewEveryOther = (string) => {
 const upDownLastcharacter = (string) => {
   return string.length(5).toUpperCase + string.length(5).toLowerCase
 }
+
+const firstAndLast = (string) => {
+  return s.length(0)+s.length(5)
+}
