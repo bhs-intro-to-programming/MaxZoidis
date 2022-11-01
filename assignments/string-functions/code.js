@@ -1,3 +1,3 @@
 const isAllUpperCase = (string) =>{
-  return string.toUpperCase
+  return string.toUpperCase()
 }
