@@ -1,2 +1,3 @@
-const isAllUpperCase = (s)=>
-s.toUpperCase()
+const isAllUpperCase = (string) =>{
+  return string.toUpperCase
+}
