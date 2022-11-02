@@ -1,3 +1,2 @@
 const isAllUpperCase = (string) =>{
-  return string.toUpperCase()
-}
+  return ;; you dont suck max zoidis
