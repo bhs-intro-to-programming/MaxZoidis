@@ -1,2 +1,0 @@
-const isAllUpperCase = (string) =>{
-  return 
