@@ -6,6 +6,6 @@ const point = (x, y) => {
   return { x, y }
 }
 
-const emptyObject = () {
+const emptyObject = () => {
   return {}
 }
