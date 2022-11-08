@@ -11,5 +11,5 @@ const emptyObject = () => {
 }
 
 const distance = (p1, p2) => {
-  return Math.sqrt(Math.distance(p1-p2)
+  return Math.sqrt(Math.distance(p1-p2))
 }
