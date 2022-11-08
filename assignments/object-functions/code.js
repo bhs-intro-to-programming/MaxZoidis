@@ -10,6 +10,6 @@ const emptyObject = () => {
   return {}
 }
 
-const distance = (p1, p2) => {
+const distance = (point['x'], point['y']) => {
   return Math.sqrt(Math.abs(p1 ** 2) + Math.Sqrt(Math.abs(p2 ** 2)))
 }
