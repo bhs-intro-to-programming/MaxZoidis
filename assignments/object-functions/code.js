@@ -3,7 +3,7 @@ const getX = (object) => {
 }
 
 const point = (x, y) => {
-  return { x, y }
+  return { x: x, y: y }
 }
 
 const emptyObject = () => {
@@ -15,5 +15,5 @@ const distance = (p1, p2) => {
 }
 
 const midpoint = (p1, p2) => {
-  return 
+  return { x: (p1.x + p2.x) / 2, y: p1.y + p2.y / 2 }
 }
