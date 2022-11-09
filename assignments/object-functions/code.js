@@ -28,7 +28,7 @@ const sumSalaries = (array) => {
 
 const newHighScore = (highScore, array) => {
   let p = 0
-  for( const elemont of array) {
+  for( const element of array) {
     p+= element.score
   }
   return p
