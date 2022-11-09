@@ -26,3 +26,4 @@ const sumSalaries = (array) => {
   return p 
 }
 
+
