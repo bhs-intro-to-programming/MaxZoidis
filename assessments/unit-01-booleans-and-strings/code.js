@@ -9,3 +9,63 @@ const rand = (n) => Math.floor(Math.random() * n);
 // syntactically correct function skeleton, more credit for a skeleton with a
 // reasonable argument list, yet more credit for a working function, and full
 // credit for a clear and simple working function.
+
+const fireAlarm = (alarmPulled, smokeDetected, plannedDrill) => {
+  return alarmPulled || smokeDetected || plannedDrill
+}
+
+
+const canBePresident = (thirtyFive, bornCitizen, livedFourteen) => {
+  return thirtyFive && bornCitizen && livedFourteen
+}
+
+
+const willSeeTweet = (follows, followsRetweet, blocked) => {
+  return follows || followsRetweet && !blocked
+}
+
+
+const evenGreaterThanZero = (number) => {
+  return even && number > 0
+}
+
+
+const isLeapYear = (year) => {
+  return
+}
+
+
+const firstAndLast = (string) => {
+  return
+}
+
+
+const swapFrontAndBack = (string) => {
+  return
+}
+
+
+
+const simplePigLatin = (string) => {
+  return
+}
+
+
+const randomCharacter = (string) => {
+  return
+}
+
+
+const randomCharacterUpDown = (string) => {
+  return
+}
+
+
+const isAllUpperCase = (string) => {
+  return
+}
+
+
+const sameIgnoringCase = (s1, s2) => {
+  return
+}
