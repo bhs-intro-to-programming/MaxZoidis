@@ -46,6 +46,9 @@ const summarizeBooks = (array) => {
     titles.push(array[i].title)
 
   }
+  return {
+    pages: pages, titles: titles
+  }
 }
 
 
