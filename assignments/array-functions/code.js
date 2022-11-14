@@ -1,11 +1,13 @@
-
-const countTens = (array) => {
-  for(let i=0; i<array.length;i++) {
-    if array.length=10{
-      return true
+const countTens = (arrayofnumbers) => {
+  let numbertens = 0
+  for (let i = 0; i < arrayofnumbers.length; i++) {
+    if (arrayofnumbers[i] === 10) {
+      numbertens++
     }
   }
+  return numbertens
 }
+
 const sum = (arrayofnumbers) => {
   let s = 0
   for (let i = 0; i < arrayofnumbers.length; i++) {
@@ -37,6 +39,15 @@ const anyOverOneHundred = (arrayofnumbers) => {
 const pyramid = (array) => {
   for (let i = 0; i < array.length; i++) {
     if (array[i] = i) {
+      return true
+    }
+  }
+}
+
+
+const countTens = (array) => {
+  for(let i=0; i<array.length;i++) {
+    if array.length=10{
       return true
     }
   }
