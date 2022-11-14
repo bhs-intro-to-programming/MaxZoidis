@@ -1,11 +1,11 @@
 
 const countTens = (array) => {
-  for (let i = 0; i < array.length; i++) {
-    if array === 10
+  for(let i=0; i<array.length;i++) {
+    if array.length=10{
       return true
     }
   }
-
+}
 const sum = (arrayofnumbers) => {
   let s = 0
   for (let i = 0; i < arrayofnumbers.length; i++) {
