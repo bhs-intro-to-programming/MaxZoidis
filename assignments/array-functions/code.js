@@ -36,4 +36,3 @@ const anyOverOneHundred = (arrayofnumbers) => {
   return false
 }
 
-const pyramid
