@@ -42,5 +42,5 @@ const pyramid = (array) => {
 return true
     } 
 }
-
+return false
 }
