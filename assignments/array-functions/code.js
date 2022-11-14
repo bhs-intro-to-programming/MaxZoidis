@@ -1,11 +1,13 @@
 const countTens = (arrayofnumbers) => {
-  numbertens = 0
-  for (let i = 0; i < array.length; i++) {
-    if arrayofnumbers[i] === 10{
-      return true
+  let numbertens = 0
+  for (let i = 0; i < arrayofnumbers.length; i++) {
+    if (arrayofnumbers[i] === 10) {
+      numbertens++
     }
   }
+  return numbertens
 }
+
 const sum = (arrayofnumbers) => {
   let s = 0
   for (let i = 0; i < arrayofnumbers.length; i++) {
@@ -43,3 +45,10 @@ const pyramid = (array) => {
 }
 
 
+const countTens = (array) => {
+  for(let i=0; i<array.length;i++) {
+    if array.length=10{
+      return true
+    }
+  }
+}
