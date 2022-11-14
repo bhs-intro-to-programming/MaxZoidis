@@ -36,9 +36,4 @@ const anyOverOneHundred = (arrayofnumbers) => {
   return false
 }
 
-
-const anyOverOneHundred = (arrayofnumbers)
-let i = 0
-for(let i = 0; i < arrayofnumbers.length; i++){
-  if arrayofnumbers[i] <100
-} return true
+const pyramid
