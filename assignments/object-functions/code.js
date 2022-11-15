@@ -38,29 +38,5 @@ const newHighScore = (highScore, array) => {
   return p
 }
 
-const summarizeBooks = (array) => {
-  let pages = 0
-  let titles = []
-  for (let i = 0; i < array.length; i++) {
-    pages += array[i].pages
-    titles.push(array[i].title)
-
-  }
-  return {
-    pages: pages, titles: titles
-  }
-}
 
 
-
-const getX = (object) => {
-  return object.x
-}
-
-const point = (x, y) => {
-  return {x: x, y: y}
-}
-
-const emptyObject = () => {
- return  {}
-}
