@@ -20,7 +20,11 @@ const midpoint = (p1, p2) => {
 
 const sumSalaries = (array) => {
   let p = 0
-  for (let i = 0: i < array.length; i++)
+  for (const element of array) {
+    p += element.salary
+  }
+  return p
+}
 
 const newHighScore = (highScore, array) => {
   let p = highScore
@@ -47,3 +51,16 @@ const summarizeBooks = (array) => {
   }
 }
 
+
+
+const getX = (object) => {
+  return object.x
+}
+
+const point = (x, y) => {
+  return {x: x, y: y}
+}
+
+const emptyObject = () => {
+ return  {}
+}
