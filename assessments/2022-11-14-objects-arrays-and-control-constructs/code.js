@@ -7,10 +7,10 @@ const area = (rect) => {
 
 const higherPaid = (e1, e2) => {
   if (e1.salary > e2.salary) {
-    return false
+    return e1
   }
   else {
-    return true
+    return e2
   }
 };
 
