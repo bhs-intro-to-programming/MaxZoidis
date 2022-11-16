@@ -15,13 +15,19 @@ const higherPaid = (e1, e2) => {
 };
 
 const isSamePoint = (p1, p2) => {
-  if { x: p1.x, y: p1.y } === { x: p1.x, y: p2.y }
+  if 
 };
 
 const totalWithTip = (bill, tipPercentage) => {
 };
 
 const isWinner = (player) => {
+  if (player.score > 100) {
+    return true
+  }
+  else {
+    return false
+  }
 };
 
 const updateWins = (players) => {
