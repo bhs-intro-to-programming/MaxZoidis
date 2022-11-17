@@ -15,11 +15,12 @@ const higherPaid = (e1, e2) => {
 };
 
 const isSamePoint = (p1, p2) => {
-  if (p1.x == p2.x)
+  if (p1.x == p2.x) {
     if (p2.y == p2.y) {
-      return p1 === p2
+      return true
     }
-
+  }
+  return false
 };
 
 const totalWithTip = (bill, tipPercentage) => {
@@ -35,6 +36,7 @@ const isWinner = (player) => {
 };
 
 const updateWins = (players) => {
+
 };
 
 const bigWinners = (players) => {
@@ -44,6 +46,10 @@ const fillTimesTable = (table) => {
 };
 
 const sums = (n) => {
+  let p =0
+  for(let i = 0; i<n.length; i++) {
+    return p
+  }
 };
 
 const rule110 = (cells) => {
