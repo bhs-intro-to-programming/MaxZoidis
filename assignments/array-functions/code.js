@@ -41,5 +41,5 @@ const pyramid = array => {
   for (let p = 0; p < array.length; i++) {
     return array.push[p++]
   }
-  return p
+  return p++
 }
