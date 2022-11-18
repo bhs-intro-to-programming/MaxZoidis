@@ -38,5 +38,5 @@ const anyOverOneHundred = (arrayofnumbers) => {
 
 const pyramid = (array) => {
   for (let i = 0; i < array.length; i++)
-    if (
+    return array.push[i++]
 }
