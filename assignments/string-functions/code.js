@@ -1,3 +1,3 @@
 const capitalize = (string) => {
-  return string.toUpperCase(0)
+  return string.toUpperCase()
 }
