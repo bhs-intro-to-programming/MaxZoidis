@@ -34,3 +34,7 @@ const distance = (a,b)=>{
 const manhattanDistance = (x1,y1,x2,y2)=> {
   return distance(x1,x2)+ distance(y1,y2)
 }
+
+const euclideanDistance = (x1,y1,x2,y2)=> {
+  return Math.sqrt(distance(x1,x2)**2+ distance(y1,y2)**2)
+}
