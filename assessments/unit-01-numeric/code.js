@@ -9,7 +9,7 @@ const G = 6.6743e-11;
 // credit for a clear and simple working function.
 
 const itemsLeftOver = (people, items) => {
-  return items - (items % people)
+  return (items % people)
 }
 
 const areaOfCircle = (radius) => {
