@@ -33,7 +33,7 @@ const valueOfJewels = (numDiamonds, numEmeralds, valueDiamond, valueEmerald) => 
 }
 
 const payWithOvertime = (hoursWorked, hourlyRate, overtimeRate) => {
-return (hoursWorked > 8 * overtimeRate) + (hourlyRate * 8)
+return 
 }
 
 const firstClassPostage = (weight) =>{
@@ -45,5 +45,5 @@ const weightOnJupiter = (weight) => {
 }
 
 const gravity = (mass1, mass2, distance) => {
-  return mass1
+  return ((mass1 * mass2)/distance**2) * G
 }
