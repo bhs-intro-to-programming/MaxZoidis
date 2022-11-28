@@ -47,3 +47,4 @@ const weightOnJupiter = (weight) => {
 const gravity = (mass1, mass2, distance) => {
   return ((mass1 * mass2)/distance**2) * G
 }
+
