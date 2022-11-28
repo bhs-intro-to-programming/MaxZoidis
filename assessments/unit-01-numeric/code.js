@@ -41,5 +41,5 @@ return 24 * weight + 36
 }
 
 const weightOnJupiter = (weight) => {
-  return weight * (JUPITER_GRAVITY % EARTH_GRAVITY)
+  return weight * ( JUPITER_GRAVITY % EARTH_GRAVITY)
 }
