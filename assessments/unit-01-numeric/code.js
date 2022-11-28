@@ -32,7 +32,7 @@ const valueOfJewels = (numDiamonds, numEmeralds, valueDiamond, valueEmerald) => 
   return (numDiamonds * valueDiamond) + (numEmeralds * valueEmerald)
 }
 
-const payWIthOvertime = (hoursWorked, hourlyRate, overtimeRate) => {
+const payWithOvertime = (hoursWorked, hourlyRate, overtimeRate) => {
 return 8 * hourlyRate + overtimeRate * hoursWorked > 8
 }
 
