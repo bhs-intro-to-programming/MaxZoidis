@@ -22,6 +22,6 @@ const futureHour = (currentHour, hoursFuture) => {
   return currentHour + hoursFuture
 }
 
-const presentsBudget = (numFrends, price) => {
+const presentsBudget = (numFriends, price) => {
   return numFriends * price
 }
