@@ -21,3 +21,7 @@ const probabilityAllHeads = (coinFlips) => {
 const futureHour = (currentHour, hoursFuture) => {
   return currentHour + hoursFuture
 }
+
+const presentsBudget = (numFrends, price) => {
+  return numFriends * price
+}
