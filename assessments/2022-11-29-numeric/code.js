@@ -11,5 +11,9 @@ const extraChocolates = (numChocolates, numPeople) => {
 }
 
 const leftOut = (chocolates, people) => {
-  return Math.floor(people - (chocolates / people))
+  return
+}
+
+const probabilityAllHeads = (coinFlips) => {
+  return 0.5 ** coinFlips
 }
