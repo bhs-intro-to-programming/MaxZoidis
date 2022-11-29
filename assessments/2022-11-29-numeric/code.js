@@ -11,7 +11,7 @@ const extraChocolates = (numChocolates, numPeople) => {
 }
 
 const leftOut = (chocolates, people) => {
-  return
+  return people -(Math.floor(chocolates % people))
 }
 
 const probabilityAllHeads = (coinFlips) => {
@@ -35,5 +35,5 @@ const wrapingCombos = (numPapers, numRibbons, numBows) => {
 }
 
 const biggestNumber = (digits) => {
- return 9 ** digits
+ return Math.floor()
 }
