@@ -18,6 +18,6 @@ const probabilityAllHeads = (coinFlips) => {
   return 0.5 ** coinFlips
 }
 
-const futureHour = (currentHour, hoursFuture) {
+const futureHour = (currentHour, hoursFuture) => {
   return currentHour + hoursFuture
 }
