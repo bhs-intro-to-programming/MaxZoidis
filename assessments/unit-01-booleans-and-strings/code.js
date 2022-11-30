@@ -69,3 +69,7 @@ const isAllUpperCase = (string) => {
 const sameIgnoringCase = (s1, s2) => {
   return
 }
+
+const fireAlarm = (smoke, drill, pulled) => {
+  return smoke || drill || pulled
+}
