@@ -31,10 +31,7 @@ const winningRecord = (wins, losses, ties) => {
 }
 
 const isMagicNumber = (a) => {
-if 42 || 17 {
-  return a
-}
-else {
-  return false
-}
-}
+  p = 0
+  if p === 42 || 17 {
+    return true
+  }
