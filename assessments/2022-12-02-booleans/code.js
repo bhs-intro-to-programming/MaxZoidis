@@ -38,3 +38,10 @@ const isMagicNumber = (a) => {
    return false
  }
 }
+ if (a === 17) {
+   return true
+ }
+ else {
+   return false
+ }
+}
