@@ -10,3 +10,8 @@ const needSunscreen = (beach, skiSlopes) => {
 const  needMittens = (outside, warm) => {
   return outside && !warm
 }
+
+
+const isVenomous = (striped, blueHead) => {
+  return !blueHead
+}
