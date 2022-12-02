@@ -44,4 +44,3 @@ const isMagicNumber = (a) => {
  else {
    return false
  }
-}
