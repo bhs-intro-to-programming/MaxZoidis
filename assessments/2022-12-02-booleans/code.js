@@ -27,5 +27,5 @@ const twiceAsExpensive = (a, b) => {
 
 
 const winningRecord = (wins, losses, ties) => {
-  return wins > (wins && losses && ties) / 2
+  return wins > ((wins && losses && ties) / 2)
 }
