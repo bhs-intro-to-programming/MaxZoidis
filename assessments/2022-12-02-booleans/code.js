@@ -35,3 +35,6 @@ const isMagicNumber = (a) => {
   if p === 42 || 17 {
     return true
   }
+  else {
+    return false
+  }
