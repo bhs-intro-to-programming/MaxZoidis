@@ -24,3 +24,8 @@ const okaySpeed = (mph, carSpeed) => {
 const twiceAsExpensive = (a, b) => {
   return a > (b * 2)
 }
+
+
+const winningRecord = (wins, losses, ties) => {
+  return wins > (wins && losses && ties) / 2
+}
