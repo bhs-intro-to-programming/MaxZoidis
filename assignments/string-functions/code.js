@@ -14,6 +14,9 @@ const firstCharacter = (s) => {
   return s.slice(0,1)
 }
 
-const lastCharaacter =(foo) => {
+const lastCharacter =(foo) => {
   return s.slice(2,3)
 }
+
+const lastCharacter
+
