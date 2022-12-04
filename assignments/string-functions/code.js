@@ -36,5 +36,5 @@ const everyOther = (s) => {
 }
 
 const firstHalf = () => {
-  return s.slice(s.length - s.length/2)
+  return s.slice(s.length - (s.length/2))
 }
