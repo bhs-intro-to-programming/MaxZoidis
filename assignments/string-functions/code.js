@@ -12,6 +12,6 @@ const capitalize = (foo) => {
 
 
 const capitalizeFirstThree = (foobar) => {
-  return foobar[0,3].toUpperCase() + foobar.substring(3).toLowerCase()
+  return foobar[0,3].toUpperCase() + foobar.substring(4).toLowerCase()
 }
 
