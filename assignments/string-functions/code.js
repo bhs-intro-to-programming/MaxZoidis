@@ -40,10 +40,6 @@ const upDownLastCharacter = (s,) => {
   return s[s.length - 1].toUpperCase() + s[s.length - 1].toLowerCase()
 }
 
-const everyOther = (s) => {
-  s.substring(0, 2, 4)
-}
-
-const findFnord = (s) => {
-  return s.indexOf(fnord)
+const firstAndLast =(s) => {
+  return s[0]+ s.slice(s.length-1)
 }
