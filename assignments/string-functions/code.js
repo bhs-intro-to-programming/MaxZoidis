@@ -32,5 +32,5 @@ const allButFirstAndLast = (s) => {
 }
 
 const everyOther = (s) => {
-  return s.slice(1) + s.slice(3) + s.slice(5)
+  return s.slice(0) + s.slice(2) + s.slice(4)
 }
