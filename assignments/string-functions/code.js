@@ -10,3 +10,6 @@ const capitalize = (foo) => {
   return foo[0].toUpperCase() + foo.substring(1).toLowerCase()
 }
 
+const firstCharacter = (s) => {
+  return s.slice(0)
+}
