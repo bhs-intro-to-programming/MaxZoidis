@@ -52,5 +52,5 @@ const concatenate = (s1,s2) => {
 }
 
 const firstHalf = (s) => {
-  return s.slice(s.length % 2)
+  return s.slice(s.length % 2== 0)
 }
