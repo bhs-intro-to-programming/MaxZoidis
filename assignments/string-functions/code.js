@@ -1,3 +1,3 @@
-const capitilaze = (foobar) => {
-  return foobar.substring(3,foobar.length)
+const secondHalf = (foobar) => {
+  return s.substring(3,s.length)
 }
