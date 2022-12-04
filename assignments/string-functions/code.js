@@ -66,3 +66,7 @@ const swapFrontAndBack = (s) => {
 const findFnord = (s) => {
   return s.indexOf('fnord')
 }
+
+const allButFirstAndList = (s) => {
+  return s.substring(1,s.length-1)
+}
