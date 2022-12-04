@@ -1,3 +1,3 @@
 const capitilaze = (string) => {
-  return string.toUpperCase()
+  return string[0].toUpperCase()
 }
