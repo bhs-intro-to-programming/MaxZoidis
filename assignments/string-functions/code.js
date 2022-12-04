@@ -11,17 +11,17 @@ const capitalize = (foo) => {
 }
 
 const firstCharacter = (s) => {
-  return s.slice(0,1)
+  return s.slice(0, 1)
 }
 
-const lastCharacter =(s) => {
-  return s.slice(s.length-1)
+const lastCharacter = (s) => {
+  return s.slice(s.length - 1)
 }
 
 const allButFirst = (s) => {
-  return s.slice(1,s.length)
+  return s.slice(1, s.length)
 }
 
 const allButFirstAndLast = (s) => {
-  return s.slice(1,s.length-1)
+  return s.slice(1) s.slice(s.length - 1)
 }
