@@ -68,3 +68,7 @@ const findFnord = (s) => {
 const allButFirstAndList = (s) => {
   return s.substring(1,s.length-1)
 }
+
+const isAllUpperCase = (s) => {
+  return s.toUpperCase() === s
+}
