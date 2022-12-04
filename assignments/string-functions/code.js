@@ -32,9 +32,8 @@ const allButFirstAndList = (s) => {
 }
 
 
-const firstHalf = (foobar) => {
-  return foobar.slice(0, 3)
-}
+
+
 
 const upDownLastCharacter = (s,) => {
   return s[s.length - 1].toUpperCase() + s[s.length - 1].toLowerCase()
