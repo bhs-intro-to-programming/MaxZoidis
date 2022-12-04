@@ -31,9 +31,6 @@ const allButFirstAndList = (s) => {
   return s.slice(s.length - 0) + s.slice(s.length - 1)
 }
 
-const everyOther = (s) => {
-  return s.slice(0) + s.slice(2) + s.slice(4)
-}
 
 const firstHalf = (foobar) => {
   return foobar.slice(0, 3)
@@ -44,5 +41,5 @@ const upDownLastCharacter = (s,) => {
 }
 
 const everyOther = (s) => {
- s.slice[1,3,5]
+  s[0] + s[2] + s[4]
 }
