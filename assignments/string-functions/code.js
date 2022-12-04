@@ -13,3 +13,7 @@ const capitalize = (foo) => {
 const firstCharacter = (s) => {
   return s.slice(0,1)
 }
+
+const lastCharaacter =(s) => {
+  return s.slice(1)
+}
