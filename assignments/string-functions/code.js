@@ -29,3 +29,5 @@ const allButFirstAndLast = (s) => {
 const isAllUpperCase = (s) => {
   return s.toUpperCase()
 }
+return true
+}
