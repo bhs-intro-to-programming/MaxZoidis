@@ -36,5 +36,5 @@ const everyOther = (s) => {
 }
 
 const upDown = (s) => {
-  return s.length.toUppercase() + s.length.toUpperCase
+  return s.toUppercase() + s.toUpperCase
 }
