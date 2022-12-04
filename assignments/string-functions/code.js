@@ -56,5 +56,5 @@ const firstHalf = (s) => {
 }
 
 const secondHald = (s) => {
-  return s.substrin(s.length/2)
+  return s.substring(s.length/2)
 }
