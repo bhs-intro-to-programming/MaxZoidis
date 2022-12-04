@@ -15,5 +15,5 @@ const firstCharacter = (s) => {
 }
 
 const lastCharaacter =(foo) => {
-  return s.slice(3)
+  return s.slice(2,3)
 }
