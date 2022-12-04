@@ -18,5 +18,5 @@ const lastCharacter =(foo) => {
   return s.slice(2,3)
 }
 
-const lastCharacter
+
 
