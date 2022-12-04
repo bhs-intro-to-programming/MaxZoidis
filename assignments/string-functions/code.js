@@ -5,3 +5,7 @@ const firstThree = (foobar) => {
 const lastThree = (foobar) => {
   return foobar.substring(foobar.length-3)
 }
+
+const capitalize = (foo) => {
+  return foo.toUpperCase()
+}
