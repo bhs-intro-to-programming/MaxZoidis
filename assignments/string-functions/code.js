@@ -47,3 +47,7 @@ const firstAndLast = (s) => {
 const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
+
+const concatenate = (s1,s2) => {
+  return s1+s2
+}
