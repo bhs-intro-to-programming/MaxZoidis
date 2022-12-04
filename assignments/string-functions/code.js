@@ -72,3 +72,7 @@ const allButFirstAndList = (s) => {
 const isAllUpperCase = (s) => {
   return s.toUpperCase() === s
 }
+
+const sameIgnoringCase = (s,ss) => {
+  return s===ss
+}
