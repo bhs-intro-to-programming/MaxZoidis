@@ -40,10 +40,10 @@ const upDownLastCharacter = (s,) => {
   return s[s.length - 1].toUpperCase() + s[s.length - 1].toLowerCase()
 }
 
-const firstAndLast =(s) => {
-  return s[0]+ s.slice(s.length-1)
+const firstAndLast = (s) => {
+  return s[0] + s.slice(s.length - 1)
 }
 
 const upDown = (s) => {
-  return s.toUpperCase+ s.toLowerCase
+  return s.toUpperCase() + s.toLowerCase()
 }
