@@ -41,5 +41,9 @@ const upDownLastCharacter = (s,) => {
 }
 
 const everyOther = (s) => {
-  s.substring(0,2,4)
+  s.substring(0, 2, 4)
+}
+
+const findFnord = (s) => {
+  return s.indexOf(fnord)
 }
