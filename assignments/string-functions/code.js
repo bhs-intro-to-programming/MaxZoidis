@@ -64,5 +64,5 @@ const swapFrontAndBack = (s) => {
 }
 
 const findFnord = (s) => {
-  return s.indexOf('fnord')
+  return s.indexOf(fnord)
 }
