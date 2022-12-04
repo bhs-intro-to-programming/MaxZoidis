@@ -35,6 +35,6 @@ const everyOther = (s) => {
   return s.slice(0) + s.slice(2) + s.slice(4)
 }
 
-const upDown = (s) => {
-  return s.slice(s.length).toUpperCase + s.slice(s.length).toLowerCase
+const firstHalf = (s) => {
+  return s.slice(s.length/2)
 }
