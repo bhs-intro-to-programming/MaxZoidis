@@ -11,5 +11,5 @@ const capitalize = (foo) => {
 }
 
 const firstCharacter = (s) => {
-  return s.slice(0)
+  return s.slice(0,1)
 }
