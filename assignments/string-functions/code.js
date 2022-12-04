@@ -1,3 +1,3 @@
 const secondHalf = (foobar) => {
-  return foobar.substring(3, foobar.length)
+  return foobar.length(3,5)
 }
