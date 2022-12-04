@@ -22,4 +22,6 @@ const allButFirst = (s) => {
   return s.slice(1,s.length)
 }
 
-
+const allButFirstAndLast = (s) => {
+  return s.slice(1,s.length-1)
+}
