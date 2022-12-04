@@ -23,11 +23,14 @@ const allButFirst = (s) => {
 }
 
 
-
 const capitalizeFirstThree = (s) => {
   return s.slice(0, 3).toUpperCase() + s.slice(3, s.length).toLowerCase()
 }
 
 const allButFirstAndLast = (s) => {
   return s.slice(1,s.length) + s.slice(s.length-1)
+}
+
+const everyOther = (s) => {
+  return s.slice(1,3,5)
 }
