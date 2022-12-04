@@ -52,5 +52,5 @@ const concatenate = (s1, s2) => {
 }
 
 const firstHalf = (s) => {
-  return s.split(s)
+  return s.split
 }
