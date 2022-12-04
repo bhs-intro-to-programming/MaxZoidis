@@ -3,5 +3,5 @@ const firstThree = (foobar) => {
 }
 
 const lastThree = (foobar) => {
-  return foobar.substring(3,5)
+  return foobar.substring(3,6)
 }
