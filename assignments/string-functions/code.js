@@ -28,7 +28,7 @@ const capitalizeFirstThree = (s) => {
 }
 
 const allButFirstAndList = (s) => {
-  return s.slice(s.length-0) + s.slice(s.length-1)
+  return s.slice(s.length - 0) + s.slice(s.length - 1)
 }
 
 const everyOther = (s) => {
@@ -36,5 +36,5 @@ const everyOther = (s) => {
 }
 
 const firstHalf = (foobar) => {
-  return foobar.slice(0,3)
+  return foobar.slice(0, 3)
 }
