@@ -22,9 +22,7 @@ const allButFirst = (s) => {
   return s.slice(1, s.length)
 }
 
-const allButFirstAndLast = (s) => {
-  return s.slice(1, (s.length - 1))
-}
+
 
 const capitalizeFirstThree = (s) => {
   return s.slice(0, 3).toUpperCase() + s.slice(3, s.length).toLowerCase()
