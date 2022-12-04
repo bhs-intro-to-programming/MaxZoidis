@@ -40,5 +40,5 @@ const firstHalf = (foobar) => {
 }
  
 const upDownLastCharacter = (s,) =>{
-return s.length.toUpperCase()
+return s..toUpperCase()
 }
