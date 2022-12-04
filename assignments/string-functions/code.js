@@ -26,7 +26,4 @@ const allButFirstAndLast = (s) => {
   return s.slice(1, (s.length-1))
 }
 
-const isAllUpperCase = (s) => {
-  return s.toUpperCase()
-}
-return true
+
