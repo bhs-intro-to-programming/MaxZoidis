@@ -36,7 +36,7 @@ const isLeapYear = (year) => {
 
 
 const firstAndLast = (string) => {
-  return string.slice(0)+string.slice(6)
+  return string.slice(0) + string.slice(6)
 }
 
 
@@ -52,7 +52,7 @@ const simplePigLatin = (string) => {
 
 
 const randomCharacter = (string) => {
-  return
+  return rand(string)
 }
 
 
