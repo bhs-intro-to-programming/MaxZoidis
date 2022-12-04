@@ -7,5 +7,5 @@ const lastThree = (foobar) => {
 }
 
 const capitalize = (foo) => {
-  return foo.toUpperCase()
+  return foo.toUpperCase)(
 }
