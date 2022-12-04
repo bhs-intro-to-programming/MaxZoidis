@@ -12,3 +12,4 @@ const capitalize = (foo) => {
 
 const firstThree = (foobar) => {
   return foobar.substring(0, 3).toUpperCase()
+}
