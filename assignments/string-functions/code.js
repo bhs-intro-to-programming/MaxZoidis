@@ -54,3 +54,7 @@ const concatenate = (s1, s2) => {
 const firstHalf = (s) => {
   return s.substring(0, s.length/2)
 }
+
+const secondHald = (s) => {
+  return s.substrin(s.length/2)
+}
