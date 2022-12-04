@@ -1,3 +1,3 @@
-const capitilaze = (string) => {
-  return 'string'.toUpperCase()
+const capitilaze = (foobar)) => {
+  return 
 }
