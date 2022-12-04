@@ -40,6 +40,6 @@ const upDownLastCharacter = (s,) => {
   return s[s.length - 1].toUpperCase() + s[s.length - 1].toLowerCase()
 }
 
-const everyOther = (string) => {
-  string[0] + string[2] + string[4]
+const everyOther = (s) => {
+  s.substring(0,2,4)
 }
