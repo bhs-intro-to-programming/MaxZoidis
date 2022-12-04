@@ -41,5 +41,5 @@ const upDownLastCharacter = (s,) => {
 }
 
 const everyOther = (s) => {
-  s.slice[0] + s.slice[2] + s.slice[4]
+  s.slice[1] + s.slice[3] + s.slice[5]
 }
