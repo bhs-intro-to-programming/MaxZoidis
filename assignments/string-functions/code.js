@@ -3,5 +3,5 @@ const capitalize = (string) => {
 }
 
 const firstAndLast = (string) => {
-  return string.length(0) + string.length(5)
+  return string[0,5]
 }
