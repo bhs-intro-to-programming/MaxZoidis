@@ -34,3 +34,7 @@ const allButFirstAndLast = (s) => {
 const everyOther = (s) => {
   return s.slice(0) + s.slice(2) + s.slice(4)
 }
+
+const upDown = (s) => {
+  return s.length.toUppercase() + s.length.toUpperCase
+}
