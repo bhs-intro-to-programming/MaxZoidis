@@ -47,10 +47,10 @@ const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
 
-const concatenate = (s1,s2) => {
-  return s1+s2
+const concatenate = (s1, s2) => {
+  return s1 + s2
 }
 
 const firstHalf = (s) => {
-  return s.slice(s.length % 2== 0)
+  return s.split(s)
 }
