@@ -23,6 +23,7 @@ const allButFirst = (s) => {
 }
 
 
+
 const capitalizeFirstThree = (s) => {
   return s.substring(0, 3).toUpperCase() + s.substring(3, s.length).toLowerCase()
 }
@@ -81,4 +82,9 @@ const everyOther = (s) => {
 
 const stringContains = (s1,s2) => {
   return s1.indexOf(s2) > -1
+}
+
+const firstName = (name) => {
+  let n1 = name.slice(0, name.indexOf(''))
+return n1
 }
