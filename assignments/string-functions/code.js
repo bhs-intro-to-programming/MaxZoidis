@@ -74,5 +74,5 @@ const isAllUpperCase = (s) => {
 }
 
 const sameIgnoringCase = (s, ss) => {
-  return s.toUpperCase === ss.toLowerCase()
+  return s.toUpperCase() === ss.toLowerCase()
 }
