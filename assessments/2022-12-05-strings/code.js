@@ -25,5 +25,5 @@ const containsX = (s) => {
 }
 
 const slug = (s1, s2, s3) => {
-  (s1.toLowerCase() + s2.toLowerCase()('-') + s2 + ('-') + s3.toLowerCase)
+  s1.toLowerCase() + s2.toLowerCase()('-') + s2 + ('-') + s3.toLowerCase
 }
