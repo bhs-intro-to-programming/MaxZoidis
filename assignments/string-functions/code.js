@@ -73,7 +73,7 @@ const sameIgnoringCase = (s1, s2) => {
 
 
 const simplePigLatin = (s, firstVowel) => {
-  s.substring(firstVowel) + s.substring(0, firstVowel) + 'ay';
+  s.substring(firstVowel) + s.substring(0, firstVowel) + ay;
 }
 
 const everyOther = (s) => {
