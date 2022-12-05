@@ -7,5 +7,9 @@ const charactersAround = (s, n) => {
 }
 
 const middle = (s) => {
-  return  s.substring(s.length/4, s.length -s.length/4)
+  return s.substring(s.length / 4, s.length - s.length / 4)
+}
+
+const pair = (s1,s2) => {
+  return s1 + ('and') + s2
 }
