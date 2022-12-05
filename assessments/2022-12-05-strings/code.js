@@ -11,5 +11,5 @@ const middle = (s) => {
 }
 
 const pair = (s1,s2) => {
-  return (s1 + s.indexOf('and')) + s.substring(s2)
+  return (s1 + s.indexOf('and')) + (s2)
 }
