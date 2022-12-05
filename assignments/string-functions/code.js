@@ -7,7 +7,7 @@ const lastThree = (foobar) => {
 }
 
 const capitalize = (foo) => {
-  return foo[0].toUpperCase() + foo.substring(1,s.length).toLowerCase()
+  return foo[0].toUpperCase() + foo.substring(1,).toLowerCase()
 }
 
 const firstCharacter = (s) => {
