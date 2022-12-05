@@ -15,11 +15,15 @@ const pair = (s1,s2) => {
 }
 
 const containsX = (s) => {
-  if (s.indexOf('x') === 'x') {
+  if (s.indexOf('x') ) {
     return true
   }
   else {
     return false
   }
  
+}
+
+const slug = (s1,s2,s3) => {
+  s1+('-')+s2+('-')+s3
 }
