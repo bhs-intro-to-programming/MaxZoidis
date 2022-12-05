@@ -88,3 +88,8 @@ const firstName = (name) => {
   let n1 = name.slice(0, name.indexOf(' '))
 return n1
 }
+
+const lastName= (name) => {
+  let n2 = name.slice(name.indexOf(' '),s.length )
+  return n2
+}
