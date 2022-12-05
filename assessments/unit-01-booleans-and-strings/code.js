@@ -46,23 +46,23 @@ const swapFrontAndBack = (s) => {
 
 
 
-const simplePigLatin = (s) => {
-  return
+const simplePigLatin = (s, vowel) => {
+  return s.substring(vowel) + s.substring(0, vowel) + 'ay'
 }
 
 
 const randomCharacter = (string) => {
-  return rand(string)
-}
-
-
-const randomCharacterUpDown = (string) => {
   return s[rand(s.length)]
 }
 
 
+const randomCharacterUpDown = (string) => {
+  return 
+}
+
+
 const isAllUpperCase = (string) => {
-  return
+  return string.toUpperCase() === s
 }
 
 
