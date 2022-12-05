@@ -28,7 +28,7 @@ const capitalizeFirstThree = (s) => {
 }
 
 const upDownLastCharacter = (s) => {
-  return s.substring(s.length-1).toUpperCase() + s.substring(s.length-1).toLowerCase()
+  return s.substring(s.length - 1).toUpperCase() + s.substring(s.length - 1).toLowerCase()
 }
 
 const firstAndLast = (s) => {
@@ -77,5 +77,5 @@ const simplePigLatin = (s, firstVowel) => {
 }
 
 const everyOther = (s) => {
-  return s[0]+s[2]+s[4]
+  return s[0] + s[2] + s[4]
 }
