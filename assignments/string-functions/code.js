@@ -50,15 +50,15 @@ const concatenate = (s1, s2) => {
 }
 
 const firstHalf = (s) => {
-  return s.substring(0, s.length/2)
+  return s.substring(0, s.length / 2)
 }
 
 const secondHalf = (s) => {
-  return s.substring(s.length/2)
+  return s.substring(s.length / 2)
 }
 
 const swapFrontAndBack = (s) => {
-  return s.substring(s.length/2) + s.substring(0,s.length/2)
+  return s.substring(s.length / 2) + s.substring(0, s.length / 2)
 }
 
 const findFnord = (s) => {
@@ -66,13 +66,13 @@ const findFnord = (s) => {
 }
 
 const allButFirstAndList = (s) => {
-  return s.substring(1,s.length-1)
+  return s.substring(1, s.length - 1)
 }
 
 const isAllUpperCase = (s) => {
   return s.toUpperCase() === s
 }
 
-const sameIgnoringCase = (s,ss) => {
-  return s===ss
+const sameIgnoringCase = (s, ss) => {
+  return s.toUpperCase === ss.toLowerCase()
 }
