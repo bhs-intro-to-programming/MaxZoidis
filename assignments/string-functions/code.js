@@ -27,12 +27,6 @@ const capitalizeFirstThree = (s) => {
   return s.substring(0, 3).toUpperCase() + s.substring(3, s.length).toLowerCase()
 }
 
-
-
-
-
-
-
 const upDownLastCharacter = (s) => {
   return s.substring(s.length-1).toUpperCase() + s.substring(s.length-1).toLowerCase()
 }
@@ -75,4 +69,13 @@ const isAllUpperCase = (s) => {
 
 const sameIgnoringCase = (s1, s2) => {
   return s1.toUpperCase() === s2.toUpperCase()
+}
+
+
+const simplePigLatin = (s, firstVowel) => {
+  s.substring(firstVowel) + s.substring(0, firstVowel) + 'ay';
+}
+
+const everyOther = (s) => {
+  return s[0]+s[2]+s[4]
 }
