@@ -15,12 +15,13 @@ const pair = (s1, s2) => {
 }
 
 const containsX = (s) => {
-  if (s.indexOf('x')) {
-    return true
-  }
-  else {
+  if (s.indexOf('x') === true){
+  return true}
+
+  else{ 
     return false
   }
+
 
 }
 
