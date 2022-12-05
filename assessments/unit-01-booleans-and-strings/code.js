@@ -46,7 +46,7 @@ const swapFrontAndBack = (s) => {
 
 
 
-const simplePigLatin = (string) => {
+const simplePigLatin = (s) => {
   return
 }
 
@@ -57,7 +57,7 @@ const randomCharacter = (string) => {
 
 
 const randomCharacterUpDown = (string) => {
-  return
+  return s[rand(s.length)]
 }
 
 
