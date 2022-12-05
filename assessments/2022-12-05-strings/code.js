@@ -1,3 +1,3 @@
 const upToX = (s) => {
-  return s.substring(0,indexOf('x') )
+  return s.substring(0,s.indexOf('x') )
 }
