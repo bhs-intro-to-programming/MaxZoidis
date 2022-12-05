@@ -90,6 +90,6 @@ const firstName = (name) => {
 }
 
 const lastName = (name) => {
-  let n2 = name.slice((name.indexOf(' ') + 1), s.length)
+  let n2 = name.slice(name.indexOf(' ') + 1, name.length)
   return n2
 }
