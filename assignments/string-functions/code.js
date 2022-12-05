@@ -85,6 +85,6 @@ const stringContains = (s1,s2) => {
 }
 
 const firstName = (name) => {
-  let n1 = name.slice(0, name.indexOf(''))
+  let n1 = name.slice(0, name.indexOf(' '))
 return n1
 }
