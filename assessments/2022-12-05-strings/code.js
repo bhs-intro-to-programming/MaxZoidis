@@ -3,7 +3,7 @@ const upToX = (s) => {
 }
 
 const charactersAround = (s, n) => {
-  return s.substring(s.indexOf(n) - 1) 
+  return s.substring(s[n] - 1) 
 }
 
 const middle = (s) => {
@@ -15,11 +15,9 @@ const pair = (s1, s2) => {
 }
 
 const containsX = (s) => {
-  if (s.indexOf('x') === true){
-  return true}
+  if (s.indexOf('x') 
 
-  else{ 
-    return false
+  
   }
 
 
