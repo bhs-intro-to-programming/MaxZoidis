@@ -24,7 +24,7 @@ const allButFirst = (s) => {
 
 
 const capitalizeFirstThree = (s) => {
-  return s.slice(0, 3).toUpperCase() + s.slice(3, s.length).toLowerCase()
+  return s.substring(0, 3).toUpperCase() + s.substring(3, s.length).toLowerCase()
 }
 
 
