@@ -7,5 +7,5 @@ const charactersAround = (s, n) => {
 }
 
 const middle = (s) => {
-  return
+  return s.substring(0,s/4)
 }
