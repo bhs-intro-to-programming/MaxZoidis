@@ -33,8 +33,8 @@ const capitalizeFirstThree = (s) => {
 
 
 
-const upDownLastCharacter = (s,) => {
-  return s[s.length - 1].toUpperCase() + s[s.length - 1].toLowerCase()
+const upDownLastCharacter = (s) => {
+  return s.substring(s.length-1).toUpperCase() + s.substring(s.length-1).toLowerCase()
 }
 
 const firstAndLast = (s) => {
