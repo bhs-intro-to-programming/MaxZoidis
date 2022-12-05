@@ -35,38 +35,6 @@ const isLeapYear = (year) => {
 }
 
 
-const firstAndLast = (string) => {
-  return string.slice(0) + string.slice(6)
+const firstAndLast = (s) => {
+  return s.substring(1,s.length-1)
 }
-
-
-const swapFrontAndBack = (s) => {
-  return s.substring(s.length / 2) + s.substring(0, s.length / 2)
-}
-
-
-
-const simplePigLatin = (s, vowel) => {
-  return s.substring(vowel) + s.substring(0, vowel) + 'ay'
-}
-
-
-const randomCharacter = (string) => {
-  return s[rand(s.length)]
-}
-
-
-const randomCharacterUpDown = (string) => {
-  return 
-}
-
-
-const isAllUpperCase = (string) => {
-  return string.toUpperCase() === s
-}
-
-
-const sameIgnoringCase = (s1, s2) => {
-  return s1.toUpperCase() === s2.toUpperCase()
-}
-
