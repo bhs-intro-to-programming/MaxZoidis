@@ -78,3 +78,7 @@ const simplePigLatin = (s, firstVowel) => {
 const everyOther = (s) => {
   return s[0] + s[2] + s[4]
 }
+
+const stringContains = (s1,s2) => {
+  return s1.indexOf(s2) > -1
+}
