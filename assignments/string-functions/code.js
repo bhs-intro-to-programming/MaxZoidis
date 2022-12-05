@@ -74,22 +74,22 @@ const sameIgnoringCase = (s1, s2) => {
 
 
 const simplePigLatin = (s, firstVowel) => {
- return  s.substring(firstVowel) + s.substring(0, firstVowel) + 'ay';
+  return s.substring(firstVowel) + s.substring(0, firstVowel) + 'ay';
 }
 const everyOther = (s) => {
   return s[0] + s[2] + s[4]
 }
 
-const stringContains = (s1,s2) => {
+const stringContains = (s1, s2) => {
   return s1.indexOf(s2) > -1
 }
 
 const firstName = (name) => {
   let n1 = name.slice(0, name.indexOf(' '))
-return n1
+  return n1
 }
 
-const lastName= (name) => {
-  let n2 = name.slice(name.indexOf(' '),s.length )
+const lastName = (name) => {
+  let n2 = name.slice(name.indexOf(' '), s.length)
   return n2
 }
