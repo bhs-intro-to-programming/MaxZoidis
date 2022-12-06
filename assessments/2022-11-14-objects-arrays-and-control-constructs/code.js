@@ -27,13 +27,15 @@ const isWinner = (player) => {
 const updateWins = (players) => {
 for(let i =0;i < players.length; i++) {
   if (isWinner(players[i]))
-  return players.wins++
+   players.wins++
 }
 };
 
 const bigWinners = (players) => {
+  let array = []
   for(let i = 0; i < players.length;i++) {
-if (players.wins > 10) 
+if (players.wins[i] > 10) 
+ array.push(players.wins++)
 i++
   }
 };
