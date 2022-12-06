@@ -56,7 +56,7 @@ const sums = (n) => {
     return array = array[n - 1]
 }
 }
-}
+
 
 const rule110 = (cells) => {
 };
