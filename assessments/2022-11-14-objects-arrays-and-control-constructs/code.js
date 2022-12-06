@@ -24,7 +24,7 @@ const isSamePoint = (p1, p2) => {
 };
 
 const totalWithTip = (bill, tipPercentage) => {
-  for (let i = 0; i < tipPercentage.length; i++)
+  for (let i = 0; i < 1.0; i++)
     return bill * tipPercentage[i]
 };
 
