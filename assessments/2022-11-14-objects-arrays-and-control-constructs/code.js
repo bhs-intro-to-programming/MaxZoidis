@@ -29,6 +29,7 @@ for(let i =0;i < players.length; i++) {
   if (isWinner(players[i]))
    players.wins++
 }
+
 };
 
 const bigWinners = (players) => {
@@ -38,6 +39,7 @@ if (players.wins[i] > 10)
  array.push(players[i])
 i++
   }
+  return array
 };
 
 const fillTimesTable = (table) => {
