@@ -35,7 +35,7 @@ const bigWinners = (players) => {
   let array = []
   for(let i = 0; i < players.length;i++) {
 if (players.wins[i] > 10) 
- array.push(players.wins++)
+ array.push(players[i])
 i++
   }
 };
