@@ -21,10 +21,10 @@ const isSamePoint = (p1, p2) => {
 
 
 const isWinner = (player) => {
-  return player.score > 100
-}
+  return player.score > 100;
+};
 
-const updateWins = (players) => {
+const updateWins = (array) => {
 
 };
 
