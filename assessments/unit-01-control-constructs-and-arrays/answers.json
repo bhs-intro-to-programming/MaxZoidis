@@ -19,5 +19,5 @@
   "false",
   "The sum of the numbers from 0 to numbers.length - 1.",
   "Produces a new array containing all the words in words in uppercase.",
-  "This function takes an empty array, and then the length of foo minus the index which is less than the length of foo and returns the result."
+  "This function takes an empty array, and then the length of foo minus the index which is less than the length of fxs and returns the result."
 ]
