@@ -54,7 +54,7 @@ const updateWins = (players) => {
 
 const bigWinners = (players) => {
   let array = []
-  for(let i = 0; i < players.length) {
+  for(let i = 0; i < players.length;i++) {
     if players[i].wins
   }
 }
