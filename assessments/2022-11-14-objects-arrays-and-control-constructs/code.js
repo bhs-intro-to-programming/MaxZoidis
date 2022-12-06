@@ -24,6 +24,10 @@ const isSamePoint = (p1, p2) => {
 };
 
 const totalWithTip = (bill, tipPercentage) => {
+  let i = 0
+  let i = tipPercentage
+  for (let i = 0; 1 < 1.0; i++)
+    return bill * i
 };
 
 const isWinner = (player) => {
@@ -46,8 +50,8 @@ const fillTimesTable = (table) => {
 };
 
 const sums = (n) => {
-  let p =0
-  for(let i = 0; i<n.length; i++) {
+  let p = 0
+  for (let i = 0; i < n.length; i++) {
     return p
   }
 };
