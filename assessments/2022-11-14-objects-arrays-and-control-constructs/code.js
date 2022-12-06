@@ -15,18 +15,13 @@ const higherPaid = (e1, e2) => {
 };
 
 const isSamePoint = (p1, p2) => {
-  if (p1.x == p2.x) {
-    if (p2.y == p2.y) {
-      return true
-    }
-  }
-  return false
+  
 };
 
-const totalWithTip = (bill, tipPercentage) => {
+/*const totalWithTip = (bill, tipPercentage) => {
   for (let i = 0; i < 1.0; i++)
     return bill.subtotal + tipPercentage[i] = bill.total
-};
+};/*
 
 const isWinner = (player) => {
   if (player.score > 100) {
