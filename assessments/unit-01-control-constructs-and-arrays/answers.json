@@ -14,7 +14,7 @@
   "xs[xs.length - 1]",
   "2",
   "0",
-  "xs[5]",
+  "xs[2][1]",
   "300",
   "false",
   "The sum of the numbers from 0 to numbers.length - 1.",
