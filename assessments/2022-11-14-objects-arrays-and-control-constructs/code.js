@@ -60,3 +60,7 @@ const sums = (n) => {
 
 const rule110 = (cells) => {
 };
+
+const isWinner = (player) => {
+  return player.score > 100
+}
