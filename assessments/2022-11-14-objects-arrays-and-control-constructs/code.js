@@ -45,8 +45,16 @@ const isWinner = (player) => {
 
 const updateWins = (players) => {
  for (let i = 0; i < players.length;i++) {
- if (isWinner(players[i]))
+ if (isWinner(players[i])) {
  players[i].wins++
+ }
 }
 
+}
+
+const bigWinners = (players) => {
+  let array = []
+  for(let i = 0; i < players.length) {
+    if players[i].wins
+  }
 }
