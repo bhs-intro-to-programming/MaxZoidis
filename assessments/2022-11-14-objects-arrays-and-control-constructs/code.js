@@ -25,37 +25,38 @@ const isWinner = (player) => {
 }
 
 const updateWins = (players) => {
-for(let i =0;i < players.length; i++) {
-  if (isWinner(players[i]))
-   players.wins++
-}
+  for (let i = 0; i < players.length; i++) {
+    if (isWinner(players[i]))
+      players.wins++
+  }
 
 };
 
 const bigWinners = (players) => {
   let array = []
-  for(let i = 0; i < players.length;i++) {
-if (players.wins[i] > 10) 
- array.push(players[i])
-i++
+  for (let i = 0; i < players.length; i++) {
+    if (players.wins[i] > 10)
+      array.push(players[i])
+    i++
   }
   return array
 };
 
 const fillTimesTable = (table) => {
-  for(let i = 0; i < table.length;i++) {
-  for(let j = 0; j < table.length;j++){
-table[i][j] = (i+1) * (j+1)
-};
-}
+  for (let i = 0; i < table.length; i++) {
+    for (let j = 0; j < table.length; j++) {
+      table[i][j] = (i + 1) * (j + 1)
+    };
+  }
 }
 
 const sums = (n) => {
   let array = []
-  for(let i = 0; i < n+1; i++)
-  return array.push[n+1]
-  }
-};
+  for (let i = 0; i < n + 1; i++) {
+    return array.push[n + 1]
+}
+}
+}
 
 const rule110 = (cells) => {
 };
