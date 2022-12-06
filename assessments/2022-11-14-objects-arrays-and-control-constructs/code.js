@@ -43,7 +43,12 @@ i++
 };
 
 const fillTimesTable = (table) => {
+  for(let i = 0; i < table.length:i++) {
+  for(let j = 0: j < table.length:j++){}
+  
 };
+}
+}
 
 const sums = (n) => {
   let p = 0
