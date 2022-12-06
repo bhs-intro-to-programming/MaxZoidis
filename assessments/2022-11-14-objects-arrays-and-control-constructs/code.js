@@ -15,19 +15,14 @@ const higherPaid = (e1, e2) => {
 };
 
 const isSamePoint = (p1, p2) => {
-  return p1.x +p2.x === p2.y + p1.y
+  return p1.x === p2.x && + p1.y === p2.y
 };
 
 
 
 const isWinner = (player) => {
-  if (player.score > 100) {
-    return true
-  }
-  else {
-    return false
-  }
-};
+  return player.score > 100
+}
 
 const updateWins = (players) => {
 
