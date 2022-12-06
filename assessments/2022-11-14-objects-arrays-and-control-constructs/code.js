@@ -51,9 +51,9 @@ table[i][j] = (i+1) * (j+1)
 }
 
 const sums = (n) => {
-  let p = 0
-  for (let i = 0; i < n.length; i++) {
-    return p
+  let array = []
+  for(let i = 0; i < n+1; i++)
+  return array.push[n+1]
   }
 };
 
