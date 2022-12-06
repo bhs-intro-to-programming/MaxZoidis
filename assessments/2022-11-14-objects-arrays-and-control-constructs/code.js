@@ -21,11 +21,15 @@ const isSamePoint = (p1, p2) => {
 
 
 const isWinner = (player) => {
-  return player.score > 100;
-};
+  return player.score > 100
+}
 
-const updateWins = (array) => {
-
+const updateWins = (players) => {
+let i = 0
+for(let i =0;i < players.length; i++) {
+  if (isWinner(players[i]))
+  players.wins++
+}
 };
 
 const bigWinners = (players) => {
