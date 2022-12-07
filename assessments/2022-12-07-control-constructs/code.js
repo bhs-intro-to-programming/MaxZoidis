@@ -146,7 +146,7 @@ const sumOfSquares = (n) => {
 const pairs = (n) => {
   for (let i = 1; i < n; i++) {
   for (let j = 0; j < n; j++) {
-    pair(i + i, j + j)
+    pair( i, j )
   }
 }
 return pair(n)
