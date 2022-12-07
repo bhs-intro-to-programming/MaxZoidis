@@ -76,6 +76,6 @@ const containsX = (s) => {
     if (s[i] === 'x') {
       return true
     }
-  } else {
-  return false }
+  }
+  return false 
 }
