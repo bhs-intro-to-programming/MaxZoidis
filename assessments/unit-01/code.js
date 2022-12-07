@@ -55,9 +55,9 @@ const yesIfEven = (n) => {
 const countXs = (s) => {
 let x = 0
   for(let i = 0; i < s.length;i++) {
-    if (s[x]) {
-      return x++
+    if (s[x++]) {
+      return x
     }
   }
-  console.log (s[x])
+
 }
