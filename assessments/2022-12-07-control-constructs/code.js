@@ -80,8 +80,10 @@ const pair = (a, b) => {
 // Write your code here ...
 
 const logIfOk = (a) => { 
+  let p = 0
+  for(let i = 0;i< a; i++)
     if (isOk(a) === true){
-      log(a)
+      log(p)
     }
-    return a
+    return p
   }
