@@ -79,20 +79,20 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 
-const logIfOk = (a) => { 
+const logIfOk = (a) => {
   let p = 0
-  for(let i = 0;i< a; i++)
-    if (isOk(a) === true){
+  for (let i = 0; i < a; i++)
+    if (isOk(a) === true) {
       log(p)
     }
-    return p
-  }
+  return p
+}
 
-  const firstOk = (n) => {
-   let p = 0
-    for(let i =0;i>=n;i++){
-if ( i < isOk(n))
-
+const firstOk = (n) => {
+  let p = 0
+  for (let i = 0; i >= n; i++) {
+    if (i < isOk(n))
     }
-return p
-  }
+  return p
+}
+}
