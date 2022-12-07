@@ -10,3 +10,10 @@ const higherPaid = (e1,e2) => {
     return e2
   }
 }
+
+const isSamePoint = (p1,p2) => {
+  if (p1.x === p2.x && p2.y === p1.y) {
+    return true
+  }
+  return false
+}
