@@ -149,5 +149,5 @@ const pairs = (n) => {
     pair(i + i, j + j)
   }
 }
-return n
+return pair(n)
 }
