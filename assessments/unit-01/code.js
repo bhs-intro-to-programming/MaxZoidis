@@ -52,3 +52,11 @@ const containsX = (s) => {
  }
  return false
 }
+
+const timesTable = (n) => {
+  for(let i = 1;i<n;i++) {
+    for(let j = 1;j<n;j++) {
+      return emit(i,j,i*j)
+    }
+  }
+}
