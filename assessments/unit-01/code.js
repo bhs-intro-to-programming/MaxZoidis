@@ -62,11 +62,10 @@ const timesTable = (n) => {
 }
 
 const countXs = (s) => {
-  
-  for(let i = 0;i< s.length;i++) {
-    let count = 0
-    if (s[i] === 'x') {
-     count++
+  let count = 0
+  for(let i = 0; i , s.length;i++) {
+    if(s[i] === 'x') {
+      count++
     }
   }
   return count
