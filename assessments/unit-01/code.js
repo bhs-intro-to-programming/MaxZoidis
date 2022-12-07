@@ -53,12 +53,12 @@ const yesIfEven = (n) => {
 };
 
 const countXs = (s) => {
-  let count
+  let count = 0
   for (let i = 0; i < s.length; i++) {
     if (s[i] === 'x') {
        count++
     }
-    
+    return count
   }
-return count
+
 }
