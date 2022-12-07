@@ -108,3 +108,12 @@ const timeToLeet = (n) => {
   }
   return count
 }
+
+const classify = (p) => {
+for(let i = 0;i < p;i++) {
+  if (isOk(i)) {
+    return recordOk(p)
+  }
+}
+}
+
