@@ -83,6 +83,5 @@ const logIfOk = (a) => {
     if (isOk(a) === true){
       log(a)
     }
+    return a
   }
-  return p
-}
