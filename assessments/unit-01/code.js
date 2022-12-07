@@ -58,7 +58,7 @@ const countXs = (s) => {
     if (s[i] === 'x') {
        count++
     }
-    return count
+    
   }
-
+return count
 }
