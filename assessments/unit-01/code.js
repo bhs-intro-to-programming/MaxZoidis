@@ -45,18 +45,26 @@ const aFartherThanB = (a, b, c) => {
 }
 
 const containsX = (s) => {
- for(let i = 0; i< s.length; i++) {
-   if (s[i] === 'x') {
-     return true
-   }
- }
- return false
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === 'x') {
+      return true
+    }
+  }
+  return false
 }
 
 const timesTable = (n) => {
-  for(let i = 1;i<n;i++) {
-    for(let j = 1;j<n;j++) {
-      return emit(i,j,i*j)
+  for (let i = 1; i < n; i++) {
+    for (let j = 1; j < n; j++) {
+      return emit(i, j, i * j)
     }
   }
+}
+
+const countsX = (s) => {
+  let count = 0
+  for(let i = 0;i< n;i++) {
+    if (s[i] === 'x')
+  }
+  return count++
 }
