@@ -86,4 +86,4 @@ const logIfOk = (a) => {
       return p.log
     }
   }
- 
+}
