@@ -111,9 +111,11 @@ const timeToLeet = (n) => {
 
 const classify = (p) => {
 for(let i = 0;i < p;i++) {
-  if (isOk(i)) {
+  if (isOk(p)) {
     return recordOk(p)
   }
 }
+  return recordNotOk(p)
 }
+
 
