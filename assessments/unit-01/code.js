@@ -69,5 +69,4 @@ const timesTable = (n) => {
      emit(i, j, i * j)
    }
  }
- return n
 }
