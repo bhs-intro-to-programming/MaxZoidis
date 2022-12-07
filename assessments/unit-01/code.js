@@ -59,4 +59,5 @@ let x = 0
       return x++
     }
   }
+  console.log (s[x])
 }
