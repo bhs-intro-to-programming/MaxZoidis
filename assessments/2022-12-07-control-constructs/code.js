@@ -122,5 +122,15 @@ for(let i = 0;i < p;i++) {
 
 
 const threewayClassify = (p) => {
-  for(let i = 0;i<p;i++) 
+  for(let i = 0;i<p;i++) {
+    if (isOk(i)) {
+      return recordOk(p)
+    }
+    else if( isMeh(i)) {
+      return recordMeh(p)
+    }
+    else {
+      return recordNotOk(p)
+    }
+  }
 }
