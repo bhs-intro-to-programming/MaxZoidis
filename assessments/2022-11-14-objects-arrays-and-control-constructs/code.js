@@ -24,3 +24,4 @@ const totalWithTip = (bill, tipPercentage) => {
     total: bill.subtotal + tip
 
   }
+}
