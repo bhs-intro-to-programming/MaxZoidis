@@ -115,7 +115,7 @@ for(let i = 0;i < p;i++) {
     return recordOk(p)
   }
   else {
-    return recordNotOk
+    return recordNotOk(p)
   }
 } 
 }
