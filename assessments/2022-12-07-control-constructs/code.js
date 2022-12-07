@@ -90,19 +90,19 @@ const logIfOk = (a) => {
 
 const firstOk = (n) => {
   for (let i = 0; i < n; i++) {
-    if ( n < isOk(n)) {
-      if ( n >= 0) {
+    if (n < isOk(n)) {
+      if (n >= 0) {
         return n
       }
-      
+
     }
   }
 }
 
 const timeToLeet = (n) => {
   let count = 0
-  for(let i = 0; i < n; i++) {
-    if(random10k() === !isLeet(i) ) {
+  for (let i = 0; i < n; i++) {
+    if (random10k() === !isLeet(i)) {
       count++
     }
   }
@@ -110,23 +110,23 @@ const timeToLeet = (n) => {
 }
 
 const classify = (p) => {
-for(let i = 0;i < p;i++) {
-  if (isOk(i)) {
-    return recordOk(p)
+  for (let i = 0; i < p; i++) {
+    if (isOk(i)) {
+      return recordOk(p)
+    }
+    else {
+      return recordNotOk(p)
+    }
   }
-  else {
-    return recordNotOk(p)
-  }
-} 
 }
 
 
 const threewayClassify = (p) => {
-  for(let i = 0;i<p;i++) {
+  for (let i = 0; i < p; i++) {
     if (isOk(i)) {
       return recordOk(p)
     }
-    else if( isMeh(i)) {
+    else if (isMeh(i)) {
       return recordMeh(p)
     }
     else {
@@ -135,10 +135,19 @@ const threewayClassify = (p) => {
   }
 }
 
-const sumOfSquares =(n) => {
- let sum = 0
- for(let i = 0;i< n;i++) {
-     sum += i ** 2
- }
- return sum
+const sumOfSquares = (n) => {
+  let sum = 0
+  for (let i = 0; i < n; i++) {
+    sum += i ** 2
+  }
+  return sum
+}
+
+const pairs = (n) => {
+  for (let i = 1; i < n; i++) {
+  for (let j = 0; j < n; j++) {
+    pair(i, j)
+  }
+}
+return n
 }
