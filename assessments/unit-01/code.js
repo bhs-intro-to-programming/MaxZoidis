@@ -56,27 +56,26 @@ const countXs = (s) => {
   let count = 0
   for (let i = 0; i < s.length; i++) {
     if (s[i] === 'x') {
-       count++
+      count++
     }
-    
+
   }
-return count
+  return count
 }
 
 const timesTable = (n) => {
- for(let i = 1; i <= n;i++) {
-   for(let j = 1; j <= n;i++){
-     emit(i, j, i * j)
-   }
- }
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= n; i++) {
+      emit(i, j, i * j)
+    }
+  }
 }
 
 const containsX = (s) => {
-  for(let i =0; i < s.length;i++) {
+  for (let i = 0; i < s.length; i++) {
     if (s[i] === 'x') {
       return true
     }
-  }
-  else {
-    return false
-  }
+  } else {
+  return false }
+}
