@@ -114,8 +114,10 @@ for(let i = 0;i < p;i++) {
   if (isOk(p)) {
     return recordOk(p)
   }
-}
-  return recordNotOk(p)
-}
+  else {
+    return recordNotOk
+  }
+} 
+
 
 
