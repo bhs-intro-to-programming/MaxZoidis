@@ -85,4 +85,5 @@ const sumSquares = (n) => {
   for(let i = 0; i<n;i++) {
     sum += Math.sqrt(i)
   }
+  return sum
 }
