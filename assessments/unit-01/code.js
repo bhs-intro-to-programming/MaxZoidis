@@ -41,4 +41,15 @@ const moreThanTwiceAsLong = (s1, s2) => {
 
 const aFartherThanB = (a, b, c) => {
   return (a - c) > (a - b)
+
+}
+
+const yesIfEven = (n) = {
+  for( let i = 0; i < n; i++) {
+    if (n/2)
+  }
+  return ('yes')
+}
+else {
+  return ('no')
 }
