@@ -149,5 +149,4 @@ const pairs = (n) => {
     pair( i, j )
   }
 }
-return pair(n)
 }
