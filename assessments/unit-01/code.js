@@ -80,4 +80,3 @@ const containsX = (s) => {
   else {
     return false
   }
-}
