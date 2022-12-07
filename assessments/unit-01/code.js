@@ -46,8 +46,8 @@ const aFartherThanB = (a, b, c) => {
 
 const yesIfEven = (n) => {
   if (n % 2 === 0) {
-    return 'yes';
+    return 'yes'
   } else {
-    return 'no';
+    return 'no'
   }
 };
