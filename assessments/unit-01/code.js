@@ -45,11 +45,10 @@ const aFartherThanB = (a, b, c) => {
 }
 
 const yesIfEven = (n) = {
-  for( let i = 0; i < n; i++) {
-    if (n/2)
-  }
-  return ('yes')
+if (n % 2 === 0) {
+  return 'yes'
 }
 else {
-  return ('no')
+  return 'no'
+}
 }
