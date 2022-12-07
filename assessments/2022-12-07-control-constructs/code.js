@@ -90,11 +90,11 @@ const logIfOk = (a) => {
 
 const firstOk = (n) => {
   for (let i = 0; i < n; i++) {
-    if (i < isOk(n)) {
-      if (i >= 0) {
+    if ( n < isOk(n)) {
+      if ( n >= 0) {
+        return n
       }
-      p
+      
     }
   }
-  return p
 }
