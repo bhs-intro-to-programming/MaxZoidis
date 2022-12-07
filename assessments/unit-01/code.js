@@ -70,3 +70,9 @@ const countXs = (s) => {
   }
   return count
 }
+
+const sumSquares = (n) => {
+ for(let i = 0; i< n;i++) {
+   return i ** 2
+ }
+}
