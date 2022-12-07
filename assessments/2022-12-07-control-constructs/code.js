@@ -111,7 +111,7 @@ const timeToLeet = (n) => {
 
 const classify = (p) => {
 for(let i = 0;i < p;i++) {
-  if (isOk(p)) {
+  if (isOk(i)) {
     return recordOk(p)
   }
   else {
@@ -121,3 +121,6 @@ for(let i = 0;i < p;i++) {
 }
 
 
+const threewayClassify = (p) => {
+  for(let i = 0;)
+}
