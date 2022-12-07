@@ -79,3 +79,10 @@ const containsX = (s) => {
   }
   return false 
 }
+
+const sumSquares = (n) => {
+  let sum = 0
+  for(let i = 0; i<n;i++) {
+    sum += Math.sqrt(i)
+  }
+}
