@@ -82,7 +82,8 @@ const pair = (a, b) => {
 const logIfOk = (a) => {
   let p = 0
   for(let i = 0; i < a;i++) {
-    if (a(p) === isOk)
+    if (a(p) === isOk){
+      return p.log
+    }
   }
-  return p.log
-}
+ 
