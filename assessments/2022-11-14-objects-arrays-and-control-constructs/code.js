@@ -12,8 +12,15 @@ const higherPaid = (e1,e2) => {
 }
 
 const isSamePoint = (p1,p2) => {
-  if (p1.x === p2.x && p2.y === p1.y) {
-    return true
-  }
-  return false
+  return (p1.x === p2.x && p2.y === p1.y) 
+
 }
+
+const totalWithTip = (bill, tipPercentage) => {
+  const tip = bill.subtotal * tipPercentage
+  return {
+    subtotal: bill.subtotal,
+    tip: tip,
+    total: bill.subtotal + tip
+
+  }
