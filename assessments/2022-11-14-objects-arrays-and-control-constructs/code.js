@@ -2,9 +2,14 @@
 // should save you some time.
 
 const area = (rect) => {
+  rect.width * rect.height
 };
 
 const higherPaid = (e1, e2) => {
+  if(el.salary > e2.salary ) {
+    return e1
+  }
+  return e2
 };
 
 const isSamePoint = (p1, p2) => {
