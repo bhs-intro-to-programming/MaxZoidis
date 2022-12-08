@@ -29,13 +29,18 @@ const updateWins = (players) => {
 const bigWinners = (players) => {
   let array = []
   for (let i = 0; i < players.length; i++) {
-    if (players.wins[i] > 10)
+    if (players[i].wins > 10)
     array.push(players[i])
   }
   return array
 };
 
 const fillTimesTable = (table) => {
+  for(let i = 0; i< table.length; i++) {
+    for(let j = 0;j < table.length;j++) {
+      return i * j
+    }
+  }
 };
 
 const sums = (n) => {
