@@ -31,7 +31,6 @@ const ayOverOneHundred = (array) => {
     if (array[i] > 100) {
       return true
     }
-  
   }
-
+return false
 }
