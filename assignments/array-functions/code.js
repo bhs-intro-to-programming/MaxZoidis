@@ -32,5 +32,15 @@ const anyOverOneHundred = (array) => {
       return true
     }
   }
-return false
+  return false
+}
+
+const pyramid = (n) => {
+  let array = []
+  for (let i = 0; i < n; i++) {
+    array.push(i) {
+      i++
+    }
+  }
+  return array
 }
