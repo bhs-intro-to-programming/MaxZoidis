@@ -2,7 +2,7 @@
 // should save you some time.
 
 const area = (rect) => {
-}; 
+};
 
 const higherPaid = (e1, e2) => {
 };
@@ -19,18 +19,20 @@ const isWinner = (player) => {
 
 const updateWins = (players) => {
   let count = 0
-  for(let i = 0; i < players.length;i++) {
+  for (let i = 0; i < players.length; i++) {
     if (isWinner(players[i]))
-    count++
+      count++
   }
   return count
 };
 
 const bigWinners = (players) => {
   let array = []
-  for(let i = 0;i < players.length; i++) {
-    if (players)
-}
+  for (let i = 0; i < players.length; i++) {
+    if (players.wins[i] > 10)
+    array.push(players[i])
+  }
+  return array
 };
 
 const fillTimesTable = (table) => {
