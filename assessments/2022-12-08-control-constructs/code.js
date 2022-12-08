@@ -9,17 +9,17 @@ const yesIfEven = (n) => {
 
 const countXs = (s) => {
   let count = 0
-  for(let i = 0;i < s.length;i++) {
-if (s[i] === 'x') 
-count++
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === 'x')
+      count++
   }
   return count
 }
 
 const timesTable = (n) => {
- for(let i = 1; i<= n;i++){
-   for(let j = 1;j<= n;j++){
-      emit(i,j,i * j)
-   }
- }
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= n; j++) {
+      emit(i, j, i * j)
+    }
+  }
 }
