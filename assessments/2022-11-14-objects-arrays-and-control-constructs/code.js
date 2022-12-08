@@ -18,6 +18,12 @@ const isWinner = (player) => {
 };
 
 const updateWins = (players) => {
+  let count = 0
+  for(let i = 0; i < players.length;i++) {
+    if (isWinner(players[i]))
+    count++
+  }
+  return count
 };
 
 const bigWinners = (players) => {
