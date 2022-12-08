@@ -1,45 +1,47 @@
-const countTens = (arrayofnumbers) => {
-  let numbertens = 0
-  for (let i = 0; i < arrayofnumbers.length; i++) {
-    if (arrayofnumbers[i] === 10) {
-      numbertens++
+
+const countTens = (array) => {
+  let count = 0
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === 10)
+      count++
+  }
+  return count
+}
+
+const sum = (array) => {
+  let sum = 0
+  for (let i = 0; i < array.length; i++) {
+    sum += array[i]
+  }
+  return sum
+}
+
+const evens = (array) => {
+  let elements = []
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 === 0) {
+      elements.push(array[i])
     }
   }
-  return numbertens
+  return elements
 }
 
-const sum = (arrayofnumbers) => {
-  let s = 0
-  for (let i = 0; i < arrayofnumbers.length; i++) {
-    s = s + arrayofnumbers[i]
-  }
-  return s
-}
-
-const evens = (arrayofnumbers) => {
-  let e = []
-  for (let i = 0; i < arrayofnumbers.length; i++) {
-    if (arrayofnumbers[i] % 2 === 0) {
-      e.push(arrayofnumbers[i])
-    }
-  }
-  return e
-}
-
-const anyOverOneHundred = (arrayofnumbers) => {
-  for (let i = 0; i < arrayofnumbers.length; i++) {
-    if (arrayofnumbers[i] > 100) {
+const anyOverOneHundred = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > 100) {
       return true
     }
   }
-
   return false
 }
 
-const pyramid = array => {
-  let p = []
-  for (let i = 0; i < array.length; i++) {
-        return array.push[p++]
+const pyramid = (n) => {
+  let array = []
+  for (let i = 0; i < n + 1; i++) {
+    for (let j = 0; j < i; j++) {
+      array.push(i)
+    }
   }
-  return p
+  return array
 }
+
