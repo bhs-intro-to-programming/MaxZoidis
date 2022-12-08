@@ -44,6 +44,11 @@ const fillTimesTable = (table) => {
 };
 
 const sums = (n) => {
+  let xs = []
+  for(let i = 0; i < n + 1;i++) {
+  xs.push(i + 1)
+  }
+  return xs
 };
 
 const rule110 = (cells) => {
