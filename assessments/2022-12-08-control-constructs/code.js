@@ -1,0 +1,1 @@
+const emit = (a, b) => console.log(a + ', ' + b);
