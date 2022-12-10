@@ -42,7 +42,7 @@ const bigWinners = (array) => {
   let newArray = []
   for(let i = 0;i < array.length;i++) {
     if( array[i].wins > 10) {
-      newArray++
+      newArray.push(array[i])
     }
   }
   return newArray
