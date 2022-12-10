@@ -33,7 +33,7 @@ const isWinner = (o) => {
 const updateWins = (array) => {
 for(let i = 0; i < array.length;i++) {
   if (isWinner(array[i])) {
-    return array[i].wins++
+     array[i].wins++
   }
 }
 }
