@@ -30,7 +30,7 @@ const newHighScore = (highScore, array) => {
   let m = 0
   for (let i = 0; i < array.length;i++) {
     if (array[i].score > highScore.score) {
-      m += array[i]
+      m += array[i].score++
 
     }
   }
