@@ -61,4 +61,9 @@ const sums = (n) => {
   for(let i = 1; i < n; i++) {
     array[i] = array[i-1] + i
   }
+  return array
+}
+
+const rule110 = (o) => {
+
 }
