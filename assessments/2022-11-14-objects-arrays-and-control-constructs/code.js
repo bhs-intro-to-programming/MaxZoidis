@@ -51,7 +51,7 @@ const bigWinners = (array) => {
 const fillTimesTable = (array) => {
   for(let i = 1;i < array.length;i++) {
     for(let j = 1; j < array.length;i++) {
-      array.push(i * j)
+      array[i,j] = (i + 1, j + 1)
     }
   }
   return array
