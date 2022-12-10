@@ -84,3 +84,12 @@ const logIfOk = (x) => {
     log(x)
   }
 }
+
+
+const firstOk = (x) => {
+  for(let i = 0; i < x; i++){
+  if (isOk(x)){
+    return x
+  }
+  }
+}
