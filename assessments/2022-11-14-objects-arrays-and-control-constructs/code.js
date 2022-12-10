@@ -12,3 +12,15 @@ if (e1.salary > e2.salary) {
     return e2
   }
 }
+
+const isSamePoint = (a,b) => {
+  return a.x == b.x && a.y === b.y
+}
+
+const totalWithTip = (bill, tipPercentage) => {
+  const tip = (tipPercentage * bill.subtotal){
+  tip: tip,
+  subtotal: bill.subtotal,
+  total: bill.subtotal + tip
+  }
+}
