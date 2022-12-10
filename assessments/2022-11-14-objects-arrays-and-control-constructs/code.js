@@ -29,3 +29,13 @@ const totalWithTip = (bill, tipPercentage) => {
 const isWinner = (o) => {
   return o.score > 100
 }
+
+const updateWins = (array) => {
+  let count = 0
+for(let i = 0; i < array.length;i++) {
+  if (array[i].wins === isWinner) {
+    count++
+  }
+}
+return count
+}
