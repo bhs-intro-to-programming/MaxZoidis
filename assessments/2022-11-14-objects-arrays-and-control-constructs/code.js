@@ -47,3 +47,12 @@ const bigWinners = (array) => {
   }
   return newArray
 }
+
+const fillTimesTable = (array) => {
+  for(let i = 1;i < array.length;i++) {
+    for(let j = 1; j < array.length;i++) {
+      array.push(i * j)
+    }
+  }
+  return array
+}
