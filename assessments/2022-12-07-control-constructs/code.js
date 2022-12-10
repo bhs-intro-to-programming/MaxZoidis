@@ -113,7 +113,7 @@ const classify = (o) => {
 const threewayClassify = (o) => {
   if (isOk(o)) {
     recordOk(o)
-  } else if {isMeh(o)} {
+  } else if (isMeh(o)) {
     recordMeh
   } else {
     recordNotOk
