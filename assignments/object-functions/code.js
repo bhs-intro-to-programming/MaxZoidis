@@ -19,11 +19,11 @@ const midpoint = (p1, p2) => {
 }
 
 const sumSalaries = (array) => {
-  let p = 0
-  for (const element of array) {
-    p += element.salary
-  }
-  return p
+ let sum = 0
+ for(let i = 0; i < array.length; i++) {
+   sum += array[i].salary
+ }
+ return sum
 }
 
 const newHighScore = (highScore, array) => {
