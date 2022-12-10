@@ -22,6 +22,6 @@ const totalWithTip = (bill, tipPercentage) => {
   return {
     tip: tip,
     subtotal: bill.subtotal,
-    total: subtotal + tip
+    total: bill.subtotal + tip
   }
 }
