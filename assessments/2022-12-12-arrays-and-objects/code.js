@@ -1,6 +1,9 @@
 const makeRow = () => {
   let array = []
-  return array.push('','','') 
+  if (array[i] < 3) {
+    array.push('')
+  }
+
   
 }
 
