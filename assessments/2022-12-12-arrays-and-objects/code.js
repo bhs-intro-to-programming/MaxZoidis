@@ -3,13 +3,13 @@ const makeRow = () => {
   for (let i = 0; i < 3; i++) {
     array.push('')
   }
-return array
+  return array
 }
 
 const makeBoard = () => {
   let array = []
   for (let i = 0; i < 3; i++) {
-    array.push(makeRow)
+    makeRow(array[i])
   }
   return array
 }
