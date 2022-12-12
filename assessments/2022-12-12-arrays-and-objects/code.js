@@ -9,7 +9,7 @@ const makeRow = () => {
 const makeBoard = () => {
   let array = []
   for (let i = 0; i < 1; i++) {
-    array.push(makeRow())
+    array.push(makeRow()) * 9
   
   }
   return array
