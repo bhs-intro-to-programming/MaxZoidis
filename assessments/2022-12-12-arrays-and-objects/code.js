@@ -1,10 +1,7 @@
 const makeRow = () => {
   let array = []
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] < 4) {
-      array.push('')
-    }
-    return array
+  for (let i = 0; i < 4; i++) {
+    
   }
 
 }
