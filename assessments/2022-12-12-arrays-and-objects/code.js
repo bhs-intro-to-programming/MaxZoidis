@@ -3,7 +3,7 @@ const makeRow = () => {
   for (let i = 0; i < 4; i++) {
     array[i].push('')
   }
-
+return array
 }
 
 const makeBoard = () => {
