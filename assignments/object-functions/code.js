@@ -30,7 +30,7 @@ const newHighScore = (highScore, players) => {
   let p = highScore
   for (let i = 0; i < players.length; i++) {
     if (players[i].score > p) {
-      p += players[i].score
+      p = players[i].score
     }
   }
   return p
