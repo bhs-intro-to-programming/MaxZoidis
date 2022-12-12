@@ -11,7 +11,7 @@ const makeBoard = () => {
   for (let i = 0; i < 3; i++) {
     array.push(makeRow())
     array.push(makeRow())
-   
+    array.push(makeRow())
   }
   return array
 }
