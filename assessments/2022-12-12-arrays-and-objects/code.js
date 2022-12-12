@@ -47,6 +47,6 @@ const extractColumnb = (array) => {
 }
 
 const recordMove = (array, o) => {
-  return array.push('o')
+  return array.push(o)
 }
  
