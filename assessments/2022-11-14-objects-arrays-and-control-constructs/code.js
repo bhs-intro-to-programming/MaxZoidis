@@ -64,6 +64,6 @@ const sums = (n) => {
   return array
 }
 
-const rule110 = (o) => {
+
 
 }
