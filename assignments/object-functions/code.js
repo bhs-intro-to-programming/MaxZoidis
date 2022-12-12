@@ -37,14 +37,14 @@ const newHighScore = (highScore, players) => {
 }
 
 const summarizeBooks = (array) => {
-  let pages = 0
-  let titles = []
+  let page = 0
+  let title = []
   for (let i = 0; i < array.length; i++) {
-    pages = array[i].pages
-    titles = array[i].title
+    page = array[i].pages
+    title = array[i].title
   }
   return {
-    pages: pages,
-    titles: titles
+    pages: page,
+    titles: title
   }
 }
