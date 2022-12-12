@@ -32,4 +32,5 @@ const newHighScore = (highScore, players) => {
       highScore += players.score
     }
   }
+  return highScore
 }
