@@ -30,7 +30,7 @@ const placeMark = (array, object) => {
 
 const allTheSame = (array) => {
   for (let i = 0; i < array.length; i++) {
-    if (array[0] === array[1] && array[0]=== array[2]) {
+    if (array[2] === array[1] && array[2] === array[0]) {
       return true
     } else {
       return false
