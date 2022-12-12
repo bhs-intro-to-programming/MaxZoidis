@@ -20,8 +20,16 @@ const midpoint = (p1, p2) => {
 
 const sumSalaries = (array) => {
   let count = 0
-  for(let i = 0; i< array.length;i++) {
+  for (let i = 0; i < array.length; i++) {
     count += array[i].salary
   }
   return count
+}
+
+const newHighScore = (highScore, players) => {
+  for (let i = 0; i < players.length; i++) {
+    if (isWinner(players[i])) {
+      highScore += players.score
+    }
+  }
 }
