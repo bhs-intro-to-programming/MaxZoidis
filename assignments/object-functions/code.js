@@ -27,11 +27,10 @@ const sumSalaries = (array) => {
 }
 
 const newHighScore = (highScore, players) => {
-  let p = highScore
   for (let i = 0; i < players.length; i++) {
-    if (isWinner(players[i])) {
-     p += players.score
+    if (players[i].score > highScore) {
+     highScore += players[i].score
     }
   }
-  return p++
+  return highScore
 }
