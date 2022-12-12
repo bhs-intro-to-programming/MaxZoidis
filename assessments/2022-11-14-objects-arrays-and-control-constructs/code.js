@@ -66,11 +66,11 @@ const sums = (n) => {
 
 
 
-const totalWithTip = (bill, tipP) => {
-  const tip = tipP * bill.subtotal
-  return {
-    subtotal:bill.subtotal,
-    tip: tip,
-    total: bill.subtotal + tip
+const updateWins = (array) => {
+  for(let i = 0;i < array.length;i++) {
+    if (isWinner(arrray[i].wins)) {
+      array.push[i]
+    }
   }
+  return array
 }
