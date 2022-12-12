@@ -68,9 +68,8 @@ const sums = (n) => {
 
 const updateWins = (array) => {
   for(let i = 0;i < array.length;i++) {
-    if (isWinner(arrray[i].wins)) {
-      array.push[i]
+    if (isWinner(arrray[i])) {
+      array[i].wins++
     }
   }
-  return array
 }
