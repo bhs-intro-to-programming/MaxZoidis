@@ -50,4 +50,5 @@ const recordMove = (array, o) =>{
   for (let i = 0; i < array.length; i++) {
     array.push(o)
   }
+  return array
 }
