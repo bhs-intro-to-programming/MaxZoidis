@@ -52,3 +52,11 @@ const summarizeBooks = (array) => {
 }
 
 
+const newHighScore = (highScore, players) => {
+  let highScore = highScore.score
+  for(let i = 0;i < players.length;i++) [
+    if(players[i] > highScore) {
+      return players[i]
+    }
+  ]
+}
