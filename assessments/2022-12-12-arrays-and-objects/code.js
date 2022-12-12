@@ -18,3 +18,12 @@ const makeBoard = () => {
   }
   return array
 }
+
+const makeMove = (s, a, b) => {
+  return {
+    mark: s,
+    row: a,
+    column: b
+  }
+}
+
