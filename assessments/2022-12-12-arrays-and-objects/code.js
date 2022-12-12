@@ -37,3 +37,15 @@ const allTheSame = (array) => {
     }
   }
 }
+
+const extractColumnb = (array) => {
+  let newArray = []
+  for(let i = 0;i < array.length;i++) {
+    array[0],array[1],array
+  }
+  
+}
+
+const recordMove = (array, o) {
+  return array.push(o)
+}
