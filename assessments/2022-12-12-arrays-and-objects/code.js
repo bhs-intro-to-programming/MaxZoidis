@@ -4,6 +4,7 @@ const makeRow = () => {
     if (array[i] < 3) {
       array.push('')
     }
+    return array
   }
 
 }
