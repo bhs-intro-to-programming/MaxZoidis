@@ -3,3 +3,8 @@ const makeRow = () => {
   return array.push('','','') 
   
 }
+
+const makeBoard = () => {
+  let array = []
+  return array.push(makeRow)
+}
