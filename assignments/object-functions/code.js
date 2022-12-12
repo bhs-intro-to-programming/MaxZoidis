@@ -33,5 +33,5 @@ const newHighScore = (highScore, players) => {
      p += players[i].score
     }
   }
-  return highScore
+  return p
 }
