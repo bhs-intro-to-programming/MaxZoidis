@@ -1,6 +1,6 @@
 const makeRow = () => {
   let array = []
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 3; i++) {
     array.push('')
   }
 return array
