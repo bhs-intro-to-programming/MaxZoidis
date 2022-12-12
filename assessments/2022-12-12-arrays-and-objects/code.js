@@ -1,4 +1,6 @@
 const makeRow = () => {
   let array = []
-  array.push('','','')
+  array.push('','','') {
+    return array
+  }
 }
