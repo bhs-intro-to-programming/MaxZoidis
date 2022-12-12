@@ -66,3 +66,11 @@ const sums = (n) => {
 
 
 
+const totalWithTip = (bill, tipP) => {
+  const tip = tipP * bill.subtotal
+  return {
+    subtotal:bill.subtotal,
+    tip: tip,
+    total: bill.subtotal + tip
+  }
+}
