@@ -8,9 +8,10 @@ const makeRow = () => {
 
 const makeBoard = () => {
   let array = []
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < array.length; i++) {
     array.push(makeRow())
-   
+    array.push(makeRow())
+    array.push(makeRow())
   }
   return array
 }
