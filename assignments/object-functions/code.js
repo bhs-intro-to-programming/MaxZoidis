@@ -33,5 +33,5 @@ const newHighScore = (highScore, players) => {
      p += players.score
     }
   }
-  return p
+  return p++
 }
