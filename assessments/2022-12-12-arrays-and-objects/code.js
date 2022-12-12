@@ -29,5 +29,11 @@ const placeMark = (array, object) => {
 }
 
 const allTheSame = (array) => {
-
+  for (let i = 0; i < array.length; i++) {
+    if (array[0] === array[1] === array[2]) {
+      return true
+    } else {
+      return false
+    }
+  }
 }
