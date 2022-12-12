@@ -40,16 +40,14 @@ const allTheSame = (array) => {
 
 const extractColumnb = (array) => {
   let newArray = []
-  for(let i = 0;i < array.length;i++) {
-    array[0],array[1],array
+  for (let i = 0; i < array.length; i++) {
+    array[0], array[1], array
   }
-  
+
 }
 
-const recordMove = (array, o) {
-  for(let i = 0;i < array.length;i++){
-
-  
-   array.push(o)
+const recordMove = (array, o) =>{
+  for (let i = 0; i < array.length; i++) {
+    array.push(o)
   }
 }
