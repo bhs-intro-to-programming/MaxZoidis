@@ -9,8 +9,8 @@ const makeRow = () => {
 const makeBoard = () => {
   let array = []
   for (let i = 0; i < 3; i++) {
-    array.push(makeRow(array[i]))
-    array.push(makeRow(array[i]))
+    array.push(makeRow(array[i])),
+    array.push(makeRow(array[i])),
     array.push(makeRow(array[i]))
   }
   return array
@@ -49,4 +49,6 @@ const extractColumnb = (array) => {
 const recordMove = (array, o) => {
   return array.push(o)
 }
+
+const rowForMove
  
