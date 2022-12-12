@@ -1,10 +1,11 @@
 const makeRow = () => {
   let array = []
-  if (array[i] < 3) {
-    array.push('')
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] < 3) {
+      array.push('')
+    }
   }
 
-  
 }
 
 const makeBoard = () => {
