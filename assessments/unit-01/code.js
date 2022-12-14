@@ -12,7 +12,7 @@ const hypotenuse = (a, b,) => {
 }
 
 const maxRadius = (width, height) => {
-  return width / 2
+  return width / 2 + height/2
 }
 
 const numCircles = (radius, width) => {
