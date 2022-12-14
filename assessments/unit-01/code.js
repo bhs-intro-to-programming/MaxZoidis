@@ -17,7 +17,7 @@ const maxRadius = (width, height) => {
   return Math.min(width, height) / 2
 }
   const numCircles = (radius, width) => {
-    return (width / radius) * 2
+    return Math.floor(width / radius) * 2
   }
 
   const offset = (width, figureWidth) => {
@@ -33,7 +33,7 @@ const maxRadius = (width, height) => {
   }
 
   const getsSpeedingTicket = (mph, copGrouchy) => {
-    return 65 > mph && copGrouchy || 70 > mph
+    return mph > 65 && copGrouchy || mph > 70
   }
 
   const moreThanTwiceAsLong = (s1, s2) => {
