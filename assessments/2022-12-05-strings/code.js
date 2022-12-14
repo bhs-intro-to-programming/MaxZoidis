@@ -5,3 +5,7 @@ const upToX = (s) => {
 const charactersAround = (s, index ) => {
   return s[index - 1] + s[index + 1]
 }
+
+const middle = (s) => {
+  return s.substring(s.length * 0.25, s.length * 0.75)
+}
