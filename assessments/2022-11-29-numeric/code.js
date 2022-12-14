@@ -30,3 +30,7 @@ const presentsBudget = (friends, pricePresent) => {
 const perPresent = (money, presents) => {
   return money / presents
 }
+
+const wrapingCombos = (paper, ribbons, bows) => {
+  return paper * ribbons * bows
+}
