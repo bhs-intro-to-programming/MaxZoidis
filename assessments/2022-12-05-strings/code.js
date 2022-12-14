@@ -17,3 +17,7 @@ const pair = (s1, s2) => {
 const containsX = (s) => {
   return s.indexOf('x') !== -1
   }
+
+const slug = (s1, s2, s3) => {
+  return s1.toLowerCase() + '-' + s2.toLowerCase() + '-' + s3.toLowerCase()
+  }
