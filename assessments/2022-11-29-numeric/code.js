@@ -20,5 +20,5 @@ const probabilityAllHeads = (numFlips) => {
 }
 
 const futureHour = (currentHour, futureHours) => {
-  return (currentHour + futureHours) / 2
+  return (currentHour + futureHours) % 24
 }
