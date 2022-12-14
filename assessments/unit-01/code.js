@@ -56,6 +56,10 @@ const secondHalf = (s) => {
 const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
+
+const everyOther = (s) => {
+  return s.substring(0, 2, 4)
+}
 const containsX = (s) => {
   for (let i = 0; i < s.length; i++) {
     if (s[i] === 'x') {
