@@ -11,5 +11,6 @@ const extraChocolates = (chocolates, people) => {
 }
 
 const leftOut = (chocolates, people) => {
-  return people % chocolates
+  return Math.max(people - chocolates, 0)
+
 }
