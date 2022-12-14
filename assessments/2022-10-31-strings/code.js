@@ -11,26 +11,6 @@ const rand = (n) => Math.floor(Math.random() * n);
 // function but you can get partial credit for a function that is basically
 // correct even if contains small mistakes.
 
-const firstHalf = (string) => {
+const firstHalf = (s) => {
   return s.substring(0,s.length/2)
-}
-
-const secondHalf = (string) => {
-  return string.length(2, 5)
-}
-
-const upDown = (string) => {
-  return string.toUpperCase() + string.toLowerCase()
-}
-
-const firstFewEveryOther = (string) => {
-  return string.length(1) + string.length(3) + string.length(5)
-}
-
-const upDownLastcharacter = (string) => {
-  return string.length(5).toUpperCase + string.length(5).toLowerCase
-}
-
-const firstAndLast = (string) => {
-  return s.length(0)+s.length(5)
 }
