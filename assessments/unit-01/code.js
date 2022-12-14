@@ -58,7 +58,7 @@ const upDown = (s) => {
 }
 
 const everyOther = (s) => {
-  return s.substring(0, 2, 4)
+  return s[0] + s[2] + s[4]
 }
 const containsX = (s) => {
   for (let i = 0; i < s.length; i++) {
