@@ -11,7 +11,7 @@ const needMittens = (outside, warm) => {
 }
 
 const isVenomous = (striped, bluehead) => {
-  return striped || !striped && !bluehead
+  return striped ||!bluehead
 }
 
 const okaySpeed = (mph, speed) => {
