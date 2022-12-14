@@ -3,5 +3,5 @@ const totalEggs = (hardBoiled, softBoiled) => {
 }
 
 const chocolatesPerPerson = (chocolates, people) => {
-  return Math.min(chocolates/people)
+  return Math.floor(chocolates/people)
 }
