@@ -28,5 +28,5 @@ const slug = (s1, s2, s3) => {
 
   const capitalizeName = (s) => {
     const space = s.indexOf(' ')
-    return capitalize(s) 
+    return capitalize(s.substring(0, space)) + ' ' + capitalize(s.substring(space + 1))
   }
