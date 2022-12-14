@@ -16,5 +16,5 @@ const leftOut = (chocolates, people) => {
 }
 
 const probabilityAllHeads = (numFlips) => {
-  return 0.5 ** numFLips
+  return 0.5 ** numFlips
 }
