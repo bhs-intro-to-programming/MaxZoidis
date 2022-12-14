@@ -14,3 +14,7 @@ const leftOut = (chocolates, people) => {
   return Math.max(people - chocolates, 0)
 
 }
+
+const probabilityAllHeads = (numFlips) => {
+  return 0.5 ** numFLips
+}
