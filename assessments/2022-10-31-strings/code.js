@@ -50,3 +50,10 @@ const randomCharacter = (s) => {
 const randomCharacterUpDOwn = (s) => {
   return upDown(randomCharacter(s))
 }
+
+const isAllUpperCase = (s) => {
+  if (s === s.toUpperCase) {
+    return true
+  }
+  return false
+}
