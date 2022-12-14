@@ -22,3 +22,11 @@ const secondHalf = (s) => {
 const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase
 }
+
+const firstFewEveryOther = (s) => {
+  return s[0] + s[2] + s[4]
+}
+
+const upDownLastCharacter = (s) => {
+  return upDown(s[s.length-1])
+}
