@@ -32,5 +32,5 @@ const upDownLastCharacter = (s) => {
 }
 
 const firstAndLast = (s) => {
-  return s.substring(0) + s.substring(s.length-1)
+  return s[0] + s[s.length-1]
 }
