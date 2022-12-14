@@ -9,3 +9,7 @@ const charactersAround = (s, index ) => {
 const middle = (s) => {
   return s.substring(s.length * 0.25, s.length * 0.75)
 }
+
+const pair = (s1, s2) => {
+  return s1 + ' ' + s2
+}
