@@ -60,6 +60,10 @@ const upDown = (s) => {
 const everyOther = (s) => {
   return s[0] + s[2] + s[4]
 }
+
+const upDownLastCharacter = (s) => {
+  return upDown(s[s.length - 1])
+}
 const containsX = (s) => {
   for (let i = 0; i < s.length; i++) {
     if (s[i] === 'x') {
