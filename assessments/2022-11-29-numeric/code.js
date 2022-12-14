@@ -9,3 +9,7 @@ const chocolatesPerPerson = (chocolates, people) => {
 const extraChocolates = (chocolates, people) => {
   return chocolates % people
 }
+
+const leftOut = (chocolates, people) => {
+  return people % chocolates
+}
