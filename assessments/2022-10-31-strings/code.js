@@ -48,5 +48,5 @@ const randomCharacter = (s) => {
 }
 
 const randomCharacterUpDOwn = (s) => {
-  return upDown(s[rand(s.length)]
+  return upDown(randomCharacter(s))
 }
