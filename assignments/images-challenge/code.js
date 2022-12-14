@@ -23,3 +23,48 @@
  *
  *  clear()
  */
+
+const circleLineRed = (radius) => {
+  let diameter = radius * 2
+  let x = 0
+  while (x < width - diameter) {
+    drawFilledCircle(diameter + x, height / 2, radius, 'red')
+    x += diameter
+  }
+}
+//circleLineRed(12)
+
+
+const circleLine = (radius) => {
+  let diameter = radius * 2
+  let x = 0
+  let c = 'red'
+  while (x < width - diameter) {
+    drawFilledCircle(diameter + x, height / 2, radius, c)
+    x += diameter
+    if (c == 'red') {
+      c = 'blue'
+    } else { c = 'red' }
+  }
+}
+//circleLine(12)
+
+const dartboard = (howManyCircles) => {
+  let radius = height / 2
+  let c = 'red'
+  while (radius > width / 6 / howManyCircles) {
+    drawFilledCircle(width / 2, height / 2, radius, c)
+    radius = radius - width / 2 / howManyCircles
+    if (c == 'red') {
+      c = 'blue'
+    } else { c = 'red' }
+  }
+}
+//dartboard(12);
+
+const checkerBoard = (NumSq) => 
+let width = height / 5
+let c = 'red'
+while (width > height/10/ NumSq) { 
+drawFilledSquare (width / 10, height / 5)
+}
