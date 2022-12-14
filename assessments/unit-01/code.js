@@ -8,7 +8,7 @@ const emit = (a, b, product) => {
 const averageWeight = (a, b) => (a + b) / 2
 
 const hypotenuse = (a, b,) => {
-  return (a * a) + (b * b)
+  return (a ** 2) + (b ** 2)
 }
 
 const maxRadius = (width, height) => {
@@ -85,3 +85,4 @@ const yesIfEven = (n) => {
   }
   return 'no'
 }
+
