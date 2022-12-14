@@ -15,8 +15,5 @@ const pair = (s1, s2) => {
 }
 
 const containsX = (s) => {
-  if  (s.indexOf('x') === true) {
-    return true
+  return s.indexOf('x') !== -1
   }
-  return false
-}
