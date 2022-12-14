@@ -6,7 +6,7 @@ const emit = (a, b, product) => {
 
 // Write your code here ...
 const averageWeight = (a, b) => {
-  return a/b
+  return a / b
 }
 
 const hypotenuse = (a, b,) => {
@@ -14,77 +14,76 @@ const hypotenuse = (a, b,) => {
 }
 
 const maxRadius = (width, height) => {
-  return width / 2 + height/2
-}
+  return Math.min(width, height) / 2
 
-const numCircles = (radius, width) => {
-  return (width / radius) * 2
-}
+  const numCircles = (radius, width) => {
+    return (width / radius) * 2
+  }
 
-const offset = (width, figureWidth) => {
-  return (width - figureWidth) / 2
-}
+  const offset = (width, figureWidth) => {
+    return (width - figureWidth) / 2
+  }
 
-const canSleepIn = (weekday, vacation) => {
-  return !weekday || vacation
-}
+  const canSleepIn = (weekday, vacation) => {
+    return !weekday || vacation
+  }
 
-const canGoToProm = (senior, invitedBySenior, promExclusionList) => {
-  return senior || invitedBySenior || !promExclusionList
-}
+  const canGoToProm = (senior, invitedBySenior, promExclusionList) => {
+    return senior || invitedBySenior || !promExclusionList
+  }
 
-const getsSpeedingTicket = (mph, copGrouchy) => {
-  return 65 > mph && copGrouchy || 70 > mph
-}
+  const getsSpeedingTicket = (mph, copGrouchy) => {
+    return 65 > mph && copGrouchy || 70 > mph
+  }
 
-const moreThanTwiceAsLong = (s1, s2) => {
-  return s1 > s2 * 2
-}
+  const moreThanTwiceAsLong = (s1, s2) => {
+    return s1 > s2 * 2
+  }
 
-const aFartherThanB = (a, b, c) => {
-  return (a - c) > (a - b)
+  const aFartherThanB = (a, b, c) => {
+    return (a - c) > (a - b)
 
-}
+  }
 
-const containsX = (s) => {
-  for (let i = 0; i < s.length; i++) {
-    if (s[i] === 'x') {
-      return true
+  const containsX = (s) => {
+    for (let i = 0; i < s.length; i++) {
+      if (s[i] === 'x') {
+        return true
+      }
+    }
+    return false
+  }
+
+  const timesTable = (n) => {
+    for (let i = 1; i < n; i++) {
+      for (let j = 1; j < n; j++) {
+        return emit(i, j, i * j)
+      }
     }
   }
-  return false
-}
 
-const timesTable = (n) => {
-  for (let i = 1; i < n; i++) {
-    for (let j = 1; j < n; j++) {
-      return emit(i, j, i * j)
+  const countXs = (s) => {
+    let count = 0
+    for (let i = 0; i, s.length; i++) {
+      if (s[i] === 'x') {
+        count++
+      }
     }
+    return count
   }
-}
 
-const countXs = (s) => {
-  let count = 0
-  for(let i = 0; i , s.length;i++) {
-    if(s[i] === 'x') {
-      count++
+  const sumSquares = (n) => {
+    let sum = 0
+    for (let i = 0; i < n; i++) {
+      sum += i ** 2
     }
+    return sum
   }
-  return count
-}
 
-const sumSquares = (n) => {
-  let sum = 0
- for(let i = 0; i< n;i++) {
-   sum += i ** 2 
- }
- return sum
-}
-
-const yesIfEven = (n) => {
-  if (n % 2 === 0) {
-    return 'yes'
+  const yesIfEven = (n) => {
+    if (n % 2 === 0) {
+      return 'yes'
+    }
+    return 'no'
   }
-  return 'no'
-}
 
