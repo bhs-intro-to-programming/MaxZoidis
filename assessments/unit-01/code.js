@@ -45,6 +45,9 @@ const maxRadius = (width, height) => {
 
   }
 
+const firstHalf = (s) => {
+  return (0, s.length/2)
+}
   const containsX = (s) => {
     for (let i = 0; i < s.length; i++) {
       if (s[i] === 'x') {
