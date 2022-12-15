@@ -6,11 +6,11 @@ const makeBoard = () => {
   return [makeRow(), makeRow(), makeRow()]
 }
 
-const makeMove = (s, a, b) => {
+const makeMove = (mark, row, column) => {
   return {
-    mark: s,
-    row: a,
-    column: b
+    mark: mark,
+    row: row,
+    column: column
   }
 }
 
