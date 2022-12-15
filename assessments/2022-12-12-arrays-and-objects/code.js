@@ -19,20 +19,20 @@ const placeMark = (board, move) => {
 }
 
 const allTheSame = (array) => {
- for(let i = 1; i < array.length;i++) {
-   if (array[0] !== array[i]) {
-     return false
-   }
- }
- return true
+  for (let i = 1; i < array.length; i++) {
+    if (array[0] !== array[i]) {
+      return false
+    }
+  }
+  return true
 }
 
 const extractColumn = (array, o) => {
- let newArray = []
- for(let i = 0;i < array.length;i++) {
-   newArray.push(array[i][o])
- }
-return newArray
+  let newArray = []
+  for (let i = 0; i < array.length; i++) {
+    newArray.push(array[i][o])
+  }
+  return newArray
 }
 
 const recordMove = (array, o) => {
@@ -40,11 +40,11 @@ const recordMove = (array, o) => {
 }
 
 const rowForMove = (array, index) => {
-return array[index].row
+  return array[index].row
 }
 
-const placeMoves = (array, moves) {
-  for(let i = 0;i < moves.length;i++) {
-  placeMark(array,moves[i])
+const placeMoves = (array, moves) => {
+  for (let i = 0; i < moves.length; i++) {
+    placeMark(array, moves[i])
   }
 }
