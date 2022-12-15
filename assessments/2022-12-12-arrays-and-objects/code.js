@@ -1,17 +1,13 @@
 const makeRow = () => {
-  let array = []
-  for (let i = 0; i < 3; i++) {
-    array.push('')
-  }
-  return array
+  return ['', '', '']
 }
 
 const makeBoard = () => {
   let array = []
   for (let i = 0; i < 3; i++) {
     array.push(makeRow(array[i])),
-    array.push(makeRow(array[i])),
-    array.push(makeRow(array[i]))
+      array.push(makeRow(array[i])),
+      array.push(makeRow(array[i]))
   }
   return array
 }
@@ -51,4 +47,4 @@ const recordMove = (array, o) => {
 }
 
 const rowForMove
- 
+
