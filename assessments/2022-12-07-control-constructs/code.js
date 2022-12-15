@@ -96,7 +96,7 @@ const firstOk = (n) => {
 const timeToLeet = () => {
   let count = 0
   if (!isLeet(random10k())) {
-count++
+    count++
   }
   return count
 }
@@ -105,7 +105,7 @@ const classify = (o) => {
   if (isOk(o)) {
     recordOk(o)
   } else {
-    recordNotOk
+    recordNotOk(o)
   }
 }
 
@@ -113,24 +113,24 @@ const threeWayClassify = (o) => {
   if (isOk(o)) {
     recordOk(o)
   } else if ((isMeh(o))) {
-    recordMeh
+    recordMeh(o)
   } else {
-    recordNotOk
+    recordNotOk(o)
   }
 }
 
 const sumOfSquares = (n) => {
   let sum = 0
-  for(let i = 0; i < n;i++) {
-  sum += i ** 2
+  for (let i = 0; i < n; i++) {
+    sum += i ** 2
   }
   return sum
 }
 
 const pairs = (n) => {
-  for(let i = 1; i< n; i++) {
-    for(let j = 1; j < n;j++) {
-      pair(i,j)
+  for (let i = 1; i < n; i++) {
+    for (let j = 1; j < n; j++) {
+      pair(i, j)
     }
   }
 }
