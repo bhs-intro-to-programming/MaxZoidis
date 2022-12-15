@@ -126,3 +126,12 @@ const sumSquares = (n) => {
   }
   return sum
 }
+
+const pairs = (n) => {
+  for(let i = 1; i < n;j++) {
+    for(let j = 1; j < n;j++) {
+      pair(i,j)
+    }
+  }
+  
+}
