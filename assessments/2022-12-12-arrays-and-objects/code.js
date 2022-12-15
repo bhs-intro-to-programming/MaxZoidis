@@ -39,5 +39,7 @@ const recordMove = (array, o) => {
   return array.push(o)
 }
 
-
+const rowForMove = (array, index) => {
+return array[index].row
+}
 
