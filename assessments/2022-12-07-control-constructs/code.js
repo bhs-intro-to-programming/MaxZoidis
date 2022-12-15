@@ -86,8 +86,8 @@ const logIfOk = (x) => {
 }
 
 const firstOk = (n) => {
-  for(let i = 0; i < n;i++) {
-    if(isOk(n)) {
+  for (let i = 0; i < n; i++) {
+    if (isOk(n)) {
       return n
     }
   }
@@ -102,7 +102,7 @@ const timeToLeet = () => {
 }
 
 const classify = (o) => {
-  if ( isOk(o)) {
+  if (isOk(o)) {
     recordOk
   } else {
     recordNotOk
@@ -117,4 +117,12 @@ const threewayClassify = (o) => {
   } else {
     recordNotOk
   }
+}
+
+const sumSquares = (n) => {
+  let sum = 0
+  for(let i = 0; i < n;i++) {
+i ** 2
+  }
+  return sum
 }
