@@ -43,3 +43,8 @@ const rowForMove = (array, index) => {
 return array[index].row
 }
 
+const placeMoves = (array, moves) {
+  for(let i = 0;i < moves.length;i++) {
+  placeMark(array,moves[i])
+  }
+}
