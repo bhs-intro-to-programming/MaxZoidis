@@ -100,3 +100,11 @@ const timeToLeet = () => {
   }
   return count
 }
+
+const classify = (o) => {
+  if ( isOk(o)) {
+    recordOk
+  } else {
+    recordNotOk
+  }
+}
