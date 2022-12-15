@@ -16,5 +16,6 @@ const countXs = (s) => {
       count++
     }
   }
-  return countr
+  return count
 }
+
