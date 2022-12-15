@@ -27,7 +27,7 @@ const allTheSame = (array) => {
  return true
 }
 
-const extractColumn = (array, board) => {
+const extractColumn = (board, array) => {
  let newArray = []
  for(let i = 0;i < array.length;i++) {
    newArray.push(array[i][board])
