@@ -27,13 +27,13 @@ const allTheSame = (array) => {
  return true
 }
 
-const extractColumn = (board, c) => {
-  let col = [];
-  for (let r = 0; r < board.length; r++) {
-    col.push(board[r][c]);
-  }
-  return col;
-};
+const extractColumn = (array, o) => {
+ let newArray = []
+ for(let i = 0;i < array.length;i++) {
+   newArray.push(array[i][o])
+ }
+return newArray
+}
 
 const recordMove = (array, o) => {
   return array.push(o)
