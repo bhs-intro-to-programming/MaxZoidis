@@ -30,7 +30,7 @@ const allTheSame = (array) => {
 const extractColumn = (array, board) => {
  let newArray = []
  for(let i = 0;i < array.length;i++) {
-   newArray.push(array[0],column,array[1].column,array[2].column)
+   newArray.push(array[i][board])
  }
 return newArray
 }
