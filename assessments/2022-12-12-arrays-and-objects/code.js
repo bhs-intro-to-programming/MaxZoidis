@@ -32,7 +32,7 @@ const extractColumnn = (array) => {
  for(let i = 0;i < array.length;i++) {
    newArray.push(array[0],column,array[1].column,array[2].column)
  }
-
+return newArray
 }
 
 const recordMove = (array, o) => {
