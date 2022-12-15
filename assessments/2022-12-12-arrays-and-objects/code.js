@@ -19,13 +19,12 @@ const placeMark = (board, move) => {
 }
 
 const allTheSame = (array) => {
-  for (let i = 0; i < array.length; i++) {
-    if (array[2] === array[1] && array[2] === array[0]) {
-      return true
-    } else {
-      return false
-    }
-  }
+ for(let i = 1; i < array.length;i++) {
+   if (array[0] !== array[i]) {
+     return false
+   }
+ }
+ return true
 }
 
 const extractColumnb = (array) => {
