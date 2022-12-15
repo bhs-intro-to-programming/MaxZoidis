@@ -84,10 +84,19 @@ const logIfOk = (x) => {
   }
 }
 
-const firstOk = (n) => { 
-  for(let i = 0; i < n; i++) {
+const firstOk = (n) => {
+  for (let i = 0; i < n; i++) {
     if (isOk(n)) {
       return n
     }
   }
+}
+
+
+const timeToLeet = () => {
+  let count = 0
+  if (!isLeet(random10k())) {
+count++
+  }
+  return count
 }
