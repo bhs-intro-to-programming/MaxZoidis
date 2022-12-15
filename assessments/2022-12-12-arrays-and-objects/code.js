@@ -14,8 +14,8 @@ const makeMove = (s, a, b) => {
   }
 }
 
-const placeMark = (array, object) => {
-
+const placeMark = (board, move) => {
+return board[move.row][move.column] = [move.mark]
 }
 
 const allTheSame = (array) => {
