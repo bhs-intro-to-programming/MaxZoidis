@@ -27,7 +27,7 @@ const allTheSame = (array) => {
  return true
 }
 
-const extractColumnn = (array) => {
+const extractColumn = (array) => {
  let newArray = []
  for(let i = 0;i < array.length;i++) {
    newArray.push(array[0],column,array[1].column,array[2].column)
