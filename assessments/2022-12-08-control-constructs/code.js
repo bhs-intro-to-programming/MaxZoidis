@@ -26,3 +26,12 @@ const timesTable = (n) => {
     }
   }
 }
+
+const containsX = (s) => {
+  if (s.indexOf === 'x') {
+    return true
+  }
+  else {
+    return false
+  }
+}
