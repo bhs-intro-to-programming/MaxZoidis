@@ -12,7 +12,7 @@ const yesIfEven = (n) => {
 const countXs = (s) => {
   let count = 0
   for (let i = 0; i < s.length; i++) {
-    if (s.indexOf === 'x') {
+    if (s[i] === 'x') {
       count++
     }
   }
@@ -28,7 +28,7 @@ const timesTable = (n) => {
 }
 
 const containsX = (s) => {
-  if (s.indexOf === 'x') {
+  if (s[i] === 'x') {
     return true
   }
   else {
