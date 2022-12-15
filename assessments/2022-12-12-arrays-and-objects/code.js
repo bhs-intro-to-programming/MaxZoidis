@@ -15,7 +15,7 @@ const makeMove = (s, a, b) => {
 }
 
 const placeMark = (board, move) => {
-return board[move.row][move.column] = [move.mark]
+return board[move.row][move.column] = move.mark
 }
 
 const allTheSame = (array) => {
