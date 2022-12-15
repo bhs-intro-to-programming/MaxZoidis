@@ -92,3 +92,11 @@ const firstOk = (n) => {
     }
   }
 }
+
+const timeToLeet = () => {
+  let count = 0
+  if (!isLeet(random10k())) {
+    count++
+  }
+  return count
+}
