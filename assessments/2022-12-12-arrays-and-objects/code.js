@@ -3,7 +3,7 @@ const makeRow = () => {
 }
 
 const makeBoard = () => {
-return [makeRow(),makeRow(), makeRow()]
+  return [makeRow(), makeRow(), makeRow()]
 }
 
 const makeMove = (s, a, b) => {
@@ -15,7 +15,7 @@ const makeMove = (s, a, b) => {
 }
 
 const placeMark = (board, move) => {
-return board[move.row][move.column] = move.mark
+  return board[move.row][move.column] = move.mark
 }
 
 const allTheSame = (array) => {
