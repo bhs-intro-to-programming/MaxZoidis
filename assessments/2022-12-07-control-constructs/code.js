@@ -100,3 +100,11 @@ count++
   }
   return count
 }
+
+const classify = (o) => {
+  if (isOk(o)) {
+    recordOk(o)
+  } else {
+    recordNotOk
+  }
+}
