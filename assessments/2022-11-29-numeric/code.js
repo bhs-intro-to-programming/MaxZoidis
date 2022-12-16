@@ -33,3 +33,7 @@ const perPresent = (money, presents) => {
 const wrappingCombos = (paper,ribbons,bows) => {
   return paper * ribbons * bows
 }
+
+const biggestNumber = (digits) => {
+  return 10 ** digits - 1
+}
