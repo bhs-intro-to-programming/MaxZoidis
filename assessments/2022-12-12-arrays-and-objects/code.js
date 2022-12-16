@@ -40,7 +40,7 @@ const recordMove = (array, move ) => {
 }
 
 const rowForMove = (array, n) => {
-array[index].row
+array[n].row
 }
 
 const placeMoves = (array, moves) => {
