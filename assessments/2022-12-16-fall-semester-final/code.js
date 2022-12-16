@@ -107,3 +107,7 @@ const needSunscreen = (beach, skis) => {
 const needMittens = (outside, warm) => {
   return outside && !warm
 }
+
+const isMagicNumber = (n) => {
+  return n === 42 || n === 17
+}
