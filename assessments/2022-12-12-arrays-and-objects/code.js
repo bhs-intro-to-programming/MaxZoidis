@@ -54,4 +54,5 @@ const extractColumn = (board, index) => {
   for(let i = 0; i < board.length;i++) {
     newBoard.push[i] [index]
   }
+  return newBoard
 }
