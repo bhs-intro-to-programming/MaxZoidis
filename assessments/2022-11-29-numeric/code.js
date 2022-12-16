@@ -7,5 +7,9 @@ const chocolatesPerPerson = (chocolates, people) => {
 }
 
 const extreaChocolates = (chocolates, people) => {
-  return chocolates% people
+  return chocolates % people
+}
+
+const leftOut = (chocolates, people) => {
+  return Math.max(people - chocolates, 0)
 }
