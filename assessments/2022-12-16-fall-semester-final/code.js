@@ -97,6 +97,22 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 
+const itemsLeftOver = (people, items) => {
+  return people % items
+}
+
+const areaOfCircle = (radius) => {
+  return Math.PI * radius ** 2
+}
+
+const volumeOfCube = (length) => {
+  return length ** 3
+}
+
+const populationGrowth = (population, growthrate) => {
+  return population * growthrate
+}
+
 // booleans
 const needHeavyCoat = (outside, cold) => {
   return outside && cold
