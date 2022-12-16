@@ -15,3 +15,7 @@ const itemsLeftOver = (items, people) => {
 const areaOfCircle = (radius) => {
   return radius * Math.PI ** 2
 }
+
+const volumeOfCube = (length) => {
+  return length ** 3
+}
