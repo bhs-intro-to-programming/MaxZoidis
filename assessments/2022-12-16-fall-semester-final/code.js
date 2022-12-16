@@ -213,4 +213,5 @@ const sums = (n) => {
   for(let i = 1; i < n;i++) {
     array.push[i -1] + i
   }
+  return array
 }
