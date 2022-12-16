@@ -214,11 +214,8 @@ const placeMark = (array, moves) => {
   }
 }
 
-const totalWithTip = (bill, tipPercentage) => {
-  const tip = bill.subtotal * tipPercentage
-  return {
-    subtotal: bill.subtotal,
-    tip: tip,
-    total: bill.subtotal + tip
-  }
+//objects
+
+const isSamePoint = (p1,p2) => {
+  return p1.x === p2.x && p1.y === p2.y
 }
