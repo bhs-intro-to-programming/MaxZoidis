@@ -42,3 +42,11 @@ return normal * hourlyrate + overtimeRate * overtime
 const firstClassPostage = (weight) => {
   return Math.ceil(weight * 24) + 36
 }
+
+const weightOnJupiter = (weight) => {
+  return weight * (JUPITER_GRAVITY / EARTH_GRAVITY)
+}
+
+const gravity = (earth, moon) => {
+  return ((earth * moon) / Math.Sqrt(earth - moon)) * G
+}
