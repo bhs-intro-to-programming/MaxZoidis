@@ -13,3 +13,7 @@ const rand = (n) => Math.floor(Math.random() * n);
 const fireAlarm = (pulled, smoke, drill) => {
   return smoke || pulled || drill
 }
+
+const willSeeTweet = (follows, followsRetweet, blocked) => {
+  return follows || followsRetweet && !blocked
+}
