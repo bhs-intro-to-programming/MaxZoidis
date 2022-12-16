@@ -37,3 +37,8 @@ const normal = (hoursWorked, 8)
 const overtime = (hoursWorked - normal)
 return normal * hourlyrate + overtimeRate * overtime
   }
+
+
+const firstClassPostage = (weight) => {
+  return Math.ceil(weight * 24) - 36
+}
