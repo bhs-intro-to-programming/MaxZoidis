@@ -111,3 +111,7 @@ const needMittens = (outside, warm) => {
 const isMagicNumber = (n) => {
   return n === 42 || n === 17
 }
+
+const firstFewEveryOther = (s) => {
+  return s[0] + s[2] + s[4]
+}
