@@ -13,3 +13,7 @@ const makeMove = (mark, row, column) => {
     column: column
   }
 }
+
+const placeMark = (board, move) => {
+return board[move.row][move.column] = move.mark
+}
