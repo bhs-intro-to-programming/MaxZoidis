@@ -67,5 +67,5 @@ const lastName = (name) => {
 }
 
 const initials = (name) => {
-  return name.slice(0,1) + name.slice(name.indexOf(' ') + 1)
+  return name[0] + name[name.indexOf(' ') + 1]
 }
