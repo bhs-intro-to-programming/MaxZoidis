@@ -97,6 +97,7 @@ const pair = (a, b) => {
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
 
+//numbers
 const itemsLeftOver = (people, items) => {
   return people % items
 }
