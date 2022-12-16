@@ -31,3 +31,10 @@ return (earnedruns / inningspitched) * 9
 const valueOfJewels = (diamonds, emeralds, valdiamonds,valemeralds) => {
 return diamonds * valdiamonds + emeralds * valemeralds
 }
+
+const payWithOvertime = (hoursWorked, hourlyrate, overtimeRate) => {
+const normal = (hoursWorked, 8)
+const overtime = (hoursWorked - normal)
+return normal * hourlyrate + overtimeRate * overtime
+  }
+}
