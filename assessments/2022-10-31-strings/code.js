@@ -32,7 +32,7 @@ const upDownLastCharacter = (s) => {
 }
 
 const firstAndLast = (s) => {
-  return s[0] + s[s.length - 1]
+  return s.slice(0,1) + s.slice(s.length - 1)
 }
 
 const swapFrontAndBack = (s) => {
