@@ -27,3 +27,7 @@ const populationGrowth = (population, growthrate) => {
 const earnedRunAverage = (earnedruns, inningspitched) => {
 return (earnedruns / inningspitched) * 9
 }
+
+const valueOfJewels = (diamonds, emeralds, valdiamonds,valemeralds) => {
+return diamonds * valdiamonds + emeralds * valemeralds
+}
