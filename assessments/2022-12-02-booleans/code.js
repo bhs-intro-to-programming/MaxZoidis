@@ -14,7 +14,7 @@ const isVenomous = (striped, bluehead) => {
   return striped ||!bluehead
 }
 
-const okaySpeed = (mph, speed) => {
+const okaySpeed = (limit, speed) => {
   return Math.abs(speed - limit) <= 10
 }
 
