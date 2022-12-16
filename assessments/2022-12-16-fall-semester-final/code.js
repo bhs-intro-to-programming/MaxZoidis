@@ -132,14 +132,19 @@ const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
 
-const firstOk = (n) => {
-  if (isOk(n)) {
-    return n
-  }
-}
+
 
 const logIfOk = (o) => {
 if (isOk(o)) {
   log(o)
 }
+}
+
+
+const classify = (o) => {
+  if (isOk(o)) {
+    recordOk(o)
+  } else {
+    recordNotOk(o)
+  }
 }
