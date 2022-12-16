@@ -169,7 +169,7 @@ const sumOfSquares = (n) => {
 
 const countXs = (s) => {
   let count = 0
-  for (let i = 0; i, s.length; i++) {
+  for (let i = 0; i< s.length; i++) {
     if (s[i] === 'x') {
       count++
     }
