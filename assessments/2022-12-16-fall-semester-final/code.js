@@ -207,3 +207,10 @@ const extractColumn = (board, index) => {
   }
   return newBoard
 }
+
+const sums = (n) => {
+  let array = []
+  for(let i = 1; i < n;i++) {
+    array.push[i -1] + i
+  }
+}
