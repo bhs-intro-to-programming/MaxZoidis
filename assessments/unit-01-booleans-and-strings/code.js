@@ -31,7 +31,7 @@ const evenGreaterThanZero = (number) => {
 
 
 const isLeapYear = (year) => {
-  return year % 4 === 0 && year % 100 !==0 && year % 400 === 0
+  return year % 4 === 0 && year % 100 !== 0 && year % 400 === 0
 }
 
 
@@ -51,14 +51,6 @@ const simplePigLatin = (s, vowel) => {
 }
 
 
-const randomCharacter = (string) => {
-  return s[rand(s.length)]
-}
-
-
-const randomCharacterUpDown = (string) => {
-  return 
-}
 
 
 const isAllUpperCase = (string) => {
