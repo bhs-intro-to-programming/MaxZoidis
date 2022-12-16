@@ -113,6 +113,14 @@ const populationGrowth = (population, growthrate) => {
   return population * growthrate
 }
 
+const totalEggs = (hardBoiled, softBoiled) => {
+  return hardBoiled + softBoiled
+}
+
+const extraChocolates = (chocolates, people) => {
+return chocolates % people
+}
+
 // booleans
 const needHeavyCoat = (outside, cold) => {
   return outside && cold
