@@ -17,3 +17,12 @@ const makeMove = (mark, row, column) => {
 const placeMark = (board, move) => {
 return board[move.row][move.column] = move.mark
 }
+
+const allTheSame = (array) => {
+  for(let i = 0; i < array.length;i++) {
+    if( array[0] !== array[i]) {
+      return false
+    }
+  }
+  return true
+}
