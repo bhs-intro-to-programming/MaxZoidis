@@ -38,3 +38,7 @@ const extractColumn = (board, index) => {
 const recordMove = (array, move ) => {
   return array.push(move)
 }
+
+const rowForMove = (array, n) => {
+array[index].row
+}
