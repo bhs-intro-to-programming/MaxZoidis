@@ -37,4 +37,3 @@ const normal = (hoursWorked, 8)
 const overtime = (hoursWorked - normal)
 return normal * hourlyrate + overtimeRate * overtime
   }
-}
