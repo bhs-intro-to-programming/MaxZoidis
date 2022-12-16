@@ -96,3 +96,6 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+const needHeavyCoat = (outside, cold) => {
+  return outside && cold
+}
