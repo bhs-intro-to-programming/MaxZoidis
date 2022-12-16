@@ -183,6 +183,6 @@ const countXs = (s) => {
 
 //Arrays
 
-const makeBoard = () => {
+const makeRow = () => {
   return [' ',' ',' ']
 }
