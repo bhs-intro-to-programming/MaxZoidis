@@ -40,5 +40,5 @@ return normal * hourlyrate + overtimeRate * overtime
 
 
 const firstClassPostage = (weight) => {
-  return Math.ceil(weight * 24) - 36
+  return Math.ceil(weight * 24) + 36
 }
