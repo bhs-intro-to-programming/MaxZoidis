@@ -173,7 +173,7 @@ const sumOfSquares = (n) => {
 
 const countXs = (s) => {
   let count = 0
-  for (let i = 0; i< s.length; i++) {
+  for (let i = 0; i < s.length; i++) {
     if (s[i] === 'x') {
       count++
     }
@@ -184,15 +184,15 @@ const countXs = (s) => {
 //Arrays
 
 const makeRow = () => {
-  return [' ',' ',' ']
+  return [' ', ' ', ' ']
 }
 
 const makeBoard = () => {
-  return [makeRow(),makeRow(),makeRow()]
+  return [makeRow(), makeRow(), makeRow()]
 }
 
 const allTheSame = (array) => {
-  for(let i = 0; i < array.length;i++) {
+  for (let i = 0; i < array.length; i++) {
     if (array[0] !== array[i]) {
       return false
     }
@@ -202,7 +202,8 @@ const allTheSame = (array) => {
 
 const extractColumn = (board, index) => {
   let newBoard = []
-  for(let i = 0; i < board.length;i++) {
+  for (let i = 0; i < board.length; i++) {
     newBoard.push[i][index]
   }
+  return newBoard
 }
