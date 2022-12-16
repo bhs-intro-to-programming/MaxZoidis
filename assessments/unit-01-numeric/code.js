@@ -11,3 +11,7 @@ const G = 6.6743e-11;
 const itemsLeftOver = (people, items) => {
   return people % items
 }
+
+const areaOfCircle = (radius) => {
+  return Math.PI * radius ** 2
+}
