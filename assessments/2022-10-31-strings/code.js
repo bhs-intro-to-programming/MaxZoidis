@@ -58,3 +58,6 @@ const isAllUpperCase = (s) => {
 const sameIgnoringCase = (s1,s2) => {
   s1.toUpperCase === s2.toLowerCase
 }
+const firstName = (name) => {
+  return name.slice(0,indexOf(' '))
+}
