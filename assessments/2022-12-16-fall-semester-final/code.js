@@ -115,3 +115,7 @@ const isMagicNumber = (n) => {
 const firstFewEveryOther = (s) => {
   return s[0] + s[2] + s[4]
 }
+
+const firstHalf = (s) => {
+  return s.substring(0, s.length / 2)
+}
