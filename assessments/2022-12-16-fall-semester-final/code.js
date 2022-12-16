@@ -214,11 +214,11 @@ const placeMark = (array, moves) => {
   }
 }
 
-const totalWithTiP = (bill, tipPercentage) => {
+const totalWithTip = (bill, tipPercentage) => {
   const tip = bill.subtotal * tipPercentage
   return {
-  subtotal: bill.subtotal,
-  tip: tip,
-  total: bill.subtotal + tip
+    subtotal: bill.subtotal,
+    tip: tip,
+    total: bill.subtotal + tip
   }
 }
