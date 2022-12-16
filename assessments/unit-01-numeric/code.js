@@ -24,6 +24,6 @@ const populationGrowth = (population, growthrate) => {
   return population * growthrate
 }
 
-const earnedRunAverage = (earnedruns = (inningspitched) => {
+const earnedRunAverage = (earnedruns, inningspitched) => {
 return (earnedruns / inningspitched) * 9
 }
