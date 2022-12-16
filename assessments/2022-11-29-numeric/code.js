@@ -25,3 +25,7 @@ const futureHour = (hour,future) => {
 const presentsBudget = (friends, price) => {
   return friends * price
 }
+
+const perPresent = (money, presents) => {
+  return money / presents
+}
