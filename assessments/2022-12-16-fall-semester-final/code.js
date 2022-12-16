@@ -235,3 +235,7 @@ const higherPaid = (e1, e2) => {
 const isWinner = (o) => {
   return o.score > 100
 }
+
+const rowForMove = (array, n) => {
+  return array[n].row
+}
