@@ -18,4 +18,3 @@ const probabilityAllHeads = (flips) => {
   return flips ** 0.5
 }
 
-const futureHour
