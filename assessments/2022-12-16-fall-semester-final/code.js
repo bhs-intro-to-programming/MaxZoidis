@@ -208,10 +208,8 @@ const extractColumn = (board, index) => {
   return newBoard
 }
 
-const sums = (n) => {
-  let array = [0]
-  for(let i = 1; i < n;i++) {
-    array.push[i -1] + i
+const placeMark = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    placeMark(array, moves[i])
   }
-  return array
 }
