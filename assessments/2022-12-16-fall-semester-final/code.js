@@ -208,7 +208,7 @@ const extractColumn = (board, index) => {
   return newBoard
 }
 
-const placeMark = (array) => {
+const placeMark = (array, moves) => {
   for (let i = 0; i < array.length; i++) {
     placeMark(array, moves[i])
   }
