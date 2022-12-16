@@ -126,6 +126,11 @@ const needMittens = (outside, warm) => {
   return outside && !warm
 }
 
+const fireAlarm = (pulled, smoke, drill) => {
+  return smoke || pulled || drill
+}
+
+
 const isMagicNumber = (n) => {
   return n === 42 || n === 17
 }
