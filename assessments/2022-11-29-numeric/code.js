@@ -1,3 +1,3 @@
 const totalEggs = (hardboiled, softboiled) => {
-  return hardBoiled + softBoiled
+  return hardboiled + softboiled
 }
