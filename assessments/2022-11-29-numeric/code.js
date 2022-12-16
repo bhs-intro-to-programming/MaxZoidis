@@ -13,3 +13,9 @@ const extreaChocolates = (chocolates, people) => {
 const leftOut = (chocolates, people) => {
   return Math.max(people - chocolates, 0)
 }
+
+const probabilityAllHeads = (flips) => {
+  return flips ** 0.5
+}
+
+const futureHour
