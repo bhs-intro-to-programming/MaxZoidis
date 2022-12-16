@@ -96,6 +96,8 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+// booleans
 const needHeavyCoat = (outside, cold) => {
   return outside && cold
 }
@@ -111,6 +113,8 @@ const needMittens = (outside, warm) => {
 const isMagicNumber = (n) => {
   return n === 42 || n === 17
 }
+
+//Strings
 
 const firstFewEveryOther = (s) => {
   return s[0] + s[2] + s[4]
@@ -132,7 +136,7 @@ const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
 
-
+// Control Constructs
 
 const logIfOk = (o) => {
   if (isOk(o)) {
@@ -175,4 +179,10 @@ const countXs = (s) => {
     }
   }
   return count
+}
+
+//Arrays
+
+const makeBoard = () => {
+  return [' ',' ',' ']
 }
