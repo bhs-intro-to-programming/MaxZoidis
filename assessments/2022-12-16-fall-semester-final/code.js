@@ -213,3 +213,12 @@ const placeMark = (array, moves) => {
     placeMark(array, moves[i])
   }
 }
+
+const totalWithTiP = (bill, tipPercentage) => {
+  const tip = bill.subtotal * tipPercentage
+  return {
+  subtotal: bill.subtotal,
+  tip: tip,
+  total: bill.subtotal + tip
+  }
+}
