@@ -48,5 +48,5 @@ const weightOnJupiter = (weight) => {
 }
 
 const gravity = (earth, moon) => {
-  return ((earth * moon) / Math.Sqrt(earth - moon)) * G
+  return ((earth * moon) / (earth - moon) ** 2) * G
 }
