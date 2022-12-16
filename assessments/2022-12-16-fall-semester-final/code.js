@@ -137,3 +137,9 @@ const firstOk = (n) => {
     return n
   }
 }
+
+const logIfOk = (o) => {
+if (isOk(o)) {
+  log(o)
+}
+}
