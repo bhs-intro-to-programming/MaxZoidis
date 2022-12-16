@@ -190,3 +190,12 @@ const makeRow = () => {
 const makeBoard = () => {
   return [makeRow(),makeRow(),makeRow()]
 }
+
+const allTheSame = (array) => {
+  for(let i = 0; i < array.length;i++) {
+    if (array[0] !== array[i]) {
+      return false
+    }
+  }
+  return true
+}
