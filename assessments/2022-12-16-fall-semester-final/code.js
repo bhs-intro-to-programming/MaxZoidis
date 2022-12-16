@@ -99,3 +99,7 @@ const pair = (a, b) => {
 const needHeavyCoat = (outside, cold) => {
   return outside && cold
 }
+
+const needSunscreen = (beach, skis) => {
+  return beach || skis
+}
