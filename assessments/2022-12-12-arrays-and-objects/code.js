@@ -26,3 +26,11 @@ const allTheSame = (array) => {
   }
   return true
 }
+
+const extractColumn = (board, index) => {
+  let newBoard = []
+  for(let i = 0; i < board.length) {
+    newBoard.push[i][index]
+  }
+  return newBoard
+}
