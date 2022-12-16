@@ -49,10 +49,8 @@ const placeMoves = (array, moves) => {
   }
 }
 
-const extractColumn = (board, index) => {
-  let newBoard = []
-  for(let i = 0; i < board.length;i++) {
-    newBoard.push[i] [index]
+const placeMoves = (array, moves) => {
+  for(let i = 0; i < array.length) {
+    placeMark(array,moves[i])
   }
-  return newBoard
 }
