@@ -64,7 +64,7 @@ const sameIgnoringCase = (s1, s2) => {
 
 
 const randomCharacter = (s) => {
-  return [rand(s.length)]
+  return s[rand(s.length)]
 }
 
 const randomCharacterUpDown = (s) => {
