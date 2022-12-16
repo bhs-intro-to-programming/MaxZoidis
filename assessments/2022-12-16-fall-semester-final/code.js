@@ -131,3 +131,9 @@ const swapFrontAndBack = (s) => {
 const upDown = (s) => {
   return s.toUpperCase() + s.toLowerCase()
 }
+
+const firstOk = (n) => {
+  if (isOk(n)) {
+    return n
+  }
+}
