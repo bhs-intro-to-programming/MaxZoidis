@@ -135,9 +135,9 @@ const upDown = (s) => {
 
 
 const logIfOk = (o) => {
-if (isOk(o)) {
-  log(o)
-}
+  if (isOk(o)) {
+    log(o)
+  }
 }
 
 
@@ -146,5 +146,15 @@ const classify = (o) => {
     recordOk(o)
   } else {
     recordNotOk(o)
+  }
+}
+
+const threewayClassify = (o) => {
+  if (sOk(o)) {
+    recordOk(o)
+  } else if (isMeh(o)) {
+    recordMeh(o)
+  } else {
+    recordNotOk
   }
 }
