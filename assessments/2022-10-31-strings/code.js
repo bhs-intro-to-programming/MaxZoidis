@@ -10,3 +10,62 @@ const rand = (n) => Math.floor(Math.random() * n);
 // reasonable argument list. To get full credit you need to write a correct
 // function but you can get partial credit for a function that is basically
 // correct even if contains small mistakes.
+
+const firstHalf = (s) => {
+  return s.substring(0, s.length / 2)
+}
+
+const secondHalf = (s) => {
+  return s.substring(s.length / 2)
+}
+
+const upDown = (s) => {
+  return s.toUpperCase() + s.toLowerCase
+}
+
+const firstFewEveryOther = (s) => {
+  return s[0] + s[2] + s[4]
+}
+
+const upDownLastCharacter = (s) => {
+  return upDown(s[s.length - 1])
+}
+
+const firstAndLast = (s) => {
+  return s.slice(0,1) + s.slice(s.length - 1)
+}
+
+const swapFrontAndBack = (s) => {
+  return s.substring(s.length / 2) + s.substring(0, s.length / 2)
+}
+
+const simplePigLatin = (s, firstVowel) => {
+  return s.substring(firstVowel) + s.substring(0,firstVowel) + 'ay'
+}
+
+const randomCharacter = (s) => {
+  return s[rand(s.length)]
+}
+
+const randomCharacterUpDOwn = (s) => {
+  return upDown(randomCharacter(s))
+}
+
+const isAllUpperCase = (s) => {
+  return s.toUpperCase === s
+}
+
+const sameIgnoringCase = (s1,s2) => {
+  s1.toUpperCase === s2.toLowerCase
+}
+const firstName = (name) => {
+  return name.slice(0,name.indexOf(' '))
+}
+
+const lastName = (name) => { 
+  return name.slice(name.indexOf(' '), name.length)
+}
+
+const initials = (name) => {
+  return name[0] + name[name.indexOf(' ') + 1]
+}
