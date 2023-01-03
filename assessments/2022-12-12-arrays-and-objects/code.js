@@ -1,54 +1,56 @@
 const makeRow = () => {
-  let array = []
-  for (let i = 0; i < 3; i++) {
-    array.push('')
-  }
-  return array
+  return ['','','']
 }
 
 const makeBoard = () => {
-  let array = []
-  for (let i = 0; i < 3; i++) {
-    array.push(makeRow(array[i])),
-    array.push(makeRow(array[i])),
-    array.push(makeRow(array[i]))
-  }
-  return array
+  return [makeRow(),makeRow(),makeRow()]
 }
 
-const makeMove = (s, a, b) => {
+const makeMove = (mark, row, column) => {
   return {
-    mark: s,
-    row: a,
-    column: b
+    mark: mark,
+    row: row,
+    column: column
   }
 }
 
-const placeMark = (array, object) => {
-
+const placeMark = (board, move) => {
+return board[move.row][move.column] = move.mark
 }
 
 const allTheSame = (array) => {
-  for (let i = 0; i < array.length; i++) {
-    if (array[2] === array[1] && array[2] === array[0]) {
-      return true
-    } else {
+  for(let i = 0; i < array.length;i++) {
+    if( array[0] !== array[i]) {
       return false
     }
   }
+  return true
 }
 
-const extractColumnb = (array) => {
-  let newArray = []
-  for (let i = 0; i < array.length; i++) {
-    array[0], array[1], array
+const extractColumn = (board, index) => {
+  let newBoard = []
+  for(let i = 0; i < board.length;i++) {
+    newBoard.push[i][index]
   }
-
+  return newBoard
 }
 
-const recordMove = (array, o) => {
-  return array.push(o)
+const recordMove = (array, move ) => {
+  return array.push(move)
 }
 
-const rowForMove
- 
+const rowForMove = (array, n) => {
+array[n].row
+}
+
+const placeMoves = (array, moves) => {
+  for(let i = 0; i < moves.length;i++) {
+    placeMark(array,moves[i])``
+  }
+}
+
+const placeMoves = (array, moves) => {
+  for(let i = 0; i < array.length) {
+    placeMark(array,moves[i])
+  }
+}
