@@ -1,5 +1,5 @@
-const getX = (object) => {
-  return object.x
+const getX = (o) => {
+  return o.x
 }
 
 const point = (x, y) => {
@@ -19,24 +19,22 @@ const midpoint = (p1, p2) => {
 }
 
 const sumSalaries = (array) => {
-  let sum = 0
+  let count = 0
   for (let i = 0; i < array.length; i++) {
-    sum += array[i].salary
+    count += array[i].salary
   }
-  return sum
+  return count
 }
 
-const newHighScore = (highScore, array) => {
-  let m = highScore
-  for (let i = 0; i < array.length;i++) {
-    if (array[i].score > m) {
-     m = array[i].score
-
+const newHighScore = (highScore, players) => {
+  let p = highScore
+  for (let i = 0; i < players.length; i++) {
+    if (players[i].score > p) {
+      p = players[i].score
     }
   }
-  return m
+  return p
 }
-
 
 const summarizeBooks = (array) => {
   let pages = 0
@@ -44,11 +42,9 @@ const summarizeBooks = (array) => {
   for (let i = 0; i < array.length; i++) {
     pages += array[i].pages
     titles.push(array[i].title)
-
   }
   return {
-    pages: pages, titles: titles
+    pages: pages,
+    titles: titles
   }
 }
-
-
