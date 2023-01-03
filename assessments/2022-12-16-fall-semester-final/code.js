@@ -96,3 +96,176 @@ const pair = (a, b) => {
 
 ////////////////////////////////////////////////////////////////////////
 // Write your code here ...
+
+//numbers
+const itemsLeftOver = (people, items) => {
+  return people % items
+}
+
+const areaOfCircle = (radius) => {
+  return Math.PI * radius ** 2
+}
+
+const volumeOfCube = (length) => {
+  return length ** 3
+}
+
+const populationGrowth = (population, growthrate) => {
+  return population * growthrate
+}
+
+const totalEggs = (hardBoiled, softBoiled) => {
+  return hardBoiled + softBoiled
+}
+
+const extraChocolates = (chocolates, people) => {
+return chocolates % people
+}
+
+// booleans
+const needHeavyCoat = (outside, cold) => {
+  return outside && cold
+}
+
+const needSunscreen = (beach, skis) => {
+  return beach || skis
+}
+
+const needMittens = (outside, warm) => {
+  return outside && !warm
+}
+
+const fireAlarm = (pulled, smoke, drill) => {
+  return smoke || pulled || drill
+}
+
+
+const isMagicNumber = (n) => {
+  return n === 42 || n === 17
+}
+
+//Strings
+
+const firstFewEveryOther = (s) => {
+  return s[0] + s[2] + s[4]
+}
+
+const firstHalf = (s) => {
+  return s.substring(0, s.length / 2)
+}
+
+const secondHalf = (s) => {
+  return s.substring(s.length / 2)
+}
+
+const swapFrontAndBack = (s) => {
+  return s.substring(s.length / 2) + s.substring(0, s.length / 2)
+}
+
+const upDown = (s) => {
+  return s.toUpperCase() + s.toLowerCase()
+}
+
+// Control Constructs
+
+const logIfOk = (o) => {
+  if (isOk(o)) {
+    log(o)
+  }
+}
+
+
+const classify = (o) => {
+  if (isOk(o)) {
+    recordOk(o)
+  } else {
+    recordNotOk(o)
+  }
+}
+
+const threewayClassify = (o) => {
+  if (isOk(o)) {
+    recordOk(o)
+  } else if (isMeh(o)) {
+    recordMeh(o)
+  } else {
+    recordNotOk(o)
+  }
+}
+
+const sumOfSquares = (n) => {
+  let sum = 0
+  for (let i = 0; i < n; i++) {
+    sum += i ** 2
+  }
+  return sum
+}
+
+const countXs = (s) => {
+  let count = 0
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === 'x') {
+      count++
+    }
+  }
+  return count
+}
+
+//Arrays
+
+const makeRow = () => {
+  return [' ', ' ', ' ']
+}
+
+const makeBoard = () => {
+  return [makeRow(), makeRow(), makeRow()]
+}
+
+const allTheSame = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    if (array[0] !== array[i]) {
+      return false
+    }
+  }
+  return true
+}
+
+const extractColumn = (board, index) => {
+  let newBoard = []
+  for (let i = 0; i < board.length; i++) {
+    newBoard.push[i][index]
+  }
+  return newBoard
+}
+
+const placeMark = (array, moves) => {
+  for (let i = 0; i < array.length; i++) {
+    placeMark(array, moves[i])
+  }
+}
+
+//objects
+
+const isSamePoint = (p1,p2) => {
+  return p1.x === p2.x && p1.y === p2.y
+}
+
+const area = (rect) => {
+  return rect.width * rect.height
+}
+
+const higherPaid = (e1, e2) => {
+  if (e1.salary > e2.salary) {
+    return e1
+  } else {
+    return e2
+  }
+}
+
+const isWinner = (o) => {
+  return o.score > 100
+}
+
+const rowForMove = (array, n) => {
+  return array[n].row
+}
