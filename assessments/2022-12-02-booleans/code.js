@@ -1,43 +1,31 @@
-const needHeavyCoat = (outside, somewhereCold) => {
-  return outside && somewhereCold
+const needHeavyCoat = (outside, cold) => {
+  return outside && cold
 }
 
-const needSunscreen = (beach, skiSlopes) => {
-  return beach && skiSlopes
+const needSunscreen = (beach, skis) => {
+  return beach || skis
 }
-
 
 const needMittens = (outside, warm) => {
   return outside && !warm
 }
 
-
-const isVenomous = (striped, blueHead) => {
-  return !blueHead
+const isVenomous = (striped, bluehead) => {
+  return striped ||!bluehead
 }
 
-
-const okaySpeed = (mph, carSpeed) => {
-  return carSpeed < (mph - 10)
+const okaySpeed = (limit, speed) => {
+  return Math.abs(speed - limit) <= 10
 }
 
-const twiceAsExpensive = (a, b) => {
-  return a > (b * 2)
+const twiceAsExpensive = (price1, price2) => {
+  return price1 > (price2 * 2)
 }
 
-
-const winningRecord = (wins, losses, ties) => {
-  return wins > (wins + losses + ties) / 2
+const winningRecord = (wins, loss, ties) => {
+  return wins > (wins + loss + ties) / 2
 }
 
-const isMagicNumber = (a) => {
-  if (a === 42) {
-    return true
-  }
-  if (a === 17) {
-    return true
-  }
-  else {
-    return false
-  }
+const isMagicNumber = (n) => {
+return n === 42 || n === 17
 }
